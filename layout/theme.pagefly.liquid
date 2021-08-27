@@ -108,7 +108,9 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  
+  {% render 'shogun-head' %}
+</head>
 
   <body><div class="pagefly-container">{{ content_for_layout }}</div></body>
 </html>
