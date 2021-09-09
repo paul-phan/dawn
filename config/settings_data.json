@@ -86,6 +86,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "1631171909f15d6245": {
+        "type": "shopify:\/\/apps\/minh-test-app\/blocks\/app-embed\/0bb7180a-780c-4b77-8d2b-2066a22f69f9",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
