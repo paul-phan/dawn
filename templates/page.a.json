@@ -7,6 +7,18 @@
     },
     "16311700702d4bd227": {
       "type": "pf-89a83b67",
+      "blocks": {
+        "4dbaf1f8-26c5-42be-9508-cb07d881a7e6": {
+          "type": "shopify:\/\/apps\/minh-test-app\/blocks\/app-block\/0bb7180a-780c-4b77-8d2b-2066a22f69f9",
+          "settings": {
+            "heading": "Cute Puppy Gallery",
+            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image."
+          }
+        }
+      },
+      "block_order": [
+        "4dbaf1f8-26c5-42be-9508-cb07d881a7e6"
+      ],
       "settings": {
       }
     }
