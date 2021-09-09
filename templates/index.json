@@ -192,6 +192,33 @@
       "type": "pf-89a83b67",
       "settings": {
       }
+    },
+    "16311705468a4f66f8": {
+      "type": "apps",
+      "blocks": {
+        "28601233-644f-4b42-ad03-f8be3166614f": {
+          "type": "shopify:\/\/apps\/minh-test-app\/blocks\/app-block\/0bb7180a-780c-4b77-8d2b-2066a22f69f9",
+          "disabled": true,
+          "settings": {
+            "heading": "Cute Puppy Gallery",
+            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image."
+          }
+        },
+        "1386a1ea-19e5-430c-a35a-a739b3365400": {
+          "type": "shopify:\/\/apps\/minh-test-app\/blocks\/app-block\/0bb7180a-780c-4b77-8d2b-2066a22f69f9",
+          "settings": {
+            "heading": "Cute Puppy Gallery",
+            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image."
+          }
+        }
+      },
+      "block_order": [
+        "28601233-644f-4b42-ad03-f8be3166614f",
+        "1386a1ea-19e5-430c-a35a-a739b3365400"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -202,6 +229,7 @@
     "video",
     "multi_column",
     "pagefly-home",
-    "1631170037984ccc5e"
+    "1631170037984ccc5e",
+    "16311705468a4f66f8"
   ]
 }
