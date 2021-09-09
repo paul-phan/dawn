@@ -187,6 +187,11 @@
       "type": "pagefly-home",
       "settings": {
       }
+    },
+    "1631170037984ccc5e": {
+      "type": "pf-89a83b67",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -196,6 +201,7 @@
     "collage",
     "video",
     "multi_column",
-    "pagefly-home"
+    "pagefly-home",
+    "1631170037984ccc5e"
   ]
 }
