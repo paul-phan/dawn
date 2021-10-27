@@ -114,7 +114,10 @@
   
   {% render 'shogun-head' %}
 {% render 'ecomsolid-head' %}
-</head>
+{% if request.design_mode %}
+<script async src="https://cdn.builder.io/js/webcomponents"></script>
+{% endif %}
+        </head>
 
   <body>
 {{ content_for_layout }}
