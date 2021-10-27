@@ -89,6 +89,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "video": {
           "type": "video",
@@ -138,6 +139,7 @@
     },
     "multi_column": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -179,12 +181,14 @@
     },
     "1635307438ff6d1198": {
       "type": "9bf256a40319465499397acbb1d62955-builder-io",
+      "disabled": true,
       "settings": {
         "builder_content_entry_preview": "12ee572b174a479faa3eb2800bde707b"
       }
     },
     "16311705468a4f66f8": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "28601233-644f-4b42-ad03-f8be3166614f": {
           "type": "shopify:\/\/apps\/minh-test-app\/blocks\/app-block\/0bb7180a-780c-4b77-8d2b-2066a22f69f9",
@@ -209,6 +213,19 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "16353105876b844898": {
+      "type": "9bf256a40319465499397acbb1d62955-builder-io",
+      "disabled": true,
+      "settings": {
+        "builder_content_entry_preview": "12ee572b174a479faa3eb2800bde707b"
+      }
+    },
+    "1635310606329f14a2": {
+      "type": "47e0e696bd6a443fb73f3c7bd9dadb73-builder-io",
+      "settings": {
+        "builder_content_entry_preview": "71274b7b6d3e400bbc048be2c99665a2"
+      }
     }
   },
   "order": [
@@ -219,6 +236,8 @@
     "video",
     "multi_column",
     "1635307438ff6d1198",
-    "16311705468a4f66f8"
+    "16311705468a4f66f8",
+    "16353105876b844898",
+    "1635310606329f14a2"
   ]
 }
