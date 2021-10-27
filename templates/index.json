@@ -177,9 +177,10 @@
         "swipe_on_mobile": false
       }
     },
-    "1631170037984ccc5e": {
-      "type": "pf-89a83b67",
+    "1635307438ff6d1198": {
+      "type": "9bf256a40319465499397acbb1d62955-builder-io",
       "settings": {
+        "builder_content_entry_preview": "12ee572b174a479faa3eb2800bde707b"
       }
     },
     "16311705468a4f66f8": {
@@ -217,7 +218,7 @@
     "collage",
     "video",
     "multi_column",
-    "1631170037984ccc5e",
+    "1635307438ff6d1198",
     "16311705468a4f66f8"
   ]
 }

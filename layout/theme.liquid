@@ -107,7 +107,10 @@
   
   {% render 'shogun-head' %}
 {% render 'ecomsolid-head' %}
-</head>
+{% if request.design_mode %}
+<script async src="https://cdn.builder.io/js/webcomponents"></script>
+{% endif %}
+        </head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
