@@ -2438,6 +2438,2148 @@ exports.default = {};
       }
     
       try {
+        function funcESSectionzTvkNgEHQm2DHkz() {
+          
+        }
+        funcESSectionzTvkNgEHQm2DHkz()
+      } catch(e) {
+        console.error("Error ESSection Id: zTvkNgEHQm2DHkz" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_box() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_box";
+  var id = "zTvkNgEHQm2DHkz_box";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settings = {
+          elementId: "zTvkNgEHQm2DHkz_box",
+          $doms: $(elementClassName),
+          animationType: "block",
+          mode: "production",
+        }
+        if (scrollIntoViewActive) {
+          settings.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView"
+          }
+        }
+        if (animationActive) {
+          settings.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation"
+          }
+        }
+        if (animationHoverActive) {
+          settings.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          }
+        }
+        window.SOLID.library.animation(settings)
+      }
+    }
+
+    function checkRemoteDefaultInput() {
+      if (isExistAtomVariant()) {
+        var $inputVariantDefault = $element.find(".gt_variant-input--default");
+        if ($inputVariantDefault && $inputVariantDefault.length) {
+          $($inputVariantDefault[0]).remove()
+        }
+      }
+
+      if (isExistAtomQuantity()) {
+        var $inputQuantityDefault = $element.find(".gt_quantity-input--default");
+        if ($inputQuantityDefault && $inputQuantityDefault.length) {
+          $($inputQuantityDefault[0]).remove()
+        }
+      }
+    }
+
+    function isExistAtomVariant() {
+      var $atomProduct = $element.find(".gt_variant--input")
+      if ($atomProduct && $atomProduct.length) {
+        return true
+      }
+      return false
+    }
+
+    function isExistAtomQuantity() {
+      var $atomQuantity = $element.find(".gt_quantity--input")
+      if ($atomQuantity && $atomQuantity.length) {
+        return true
+      }
+      return false
+    }
+    /* init block script */
+    addInteraction();
+    checkRemoteDefaultInput();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_box()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_box" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_boxImage() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxImage";
+  var id = "zTvkNgEHQm2DHkz_boxImage";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settings = {
+          elementId: "zTvkNgEHQm2DHkz_boxImage",
+          $doms: $(elementClassName),
+          animationType: "block",
+          mode: "production",
+        }
+        if (scrollIntoViewActive) {
+          settings.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView"
+          }
+        }
+        if (animationActive) {
+          settings.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation"
+          }
+        }
+        if (animationHoverActive) {
+          settings.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          }
+        }
+        window.SOLID.library.animation(settings)
+      }
+    }
+    /* init block script */
+    addInteraction();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_boxImage()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxImage" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productImageList() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productImageList";
+  var id = "zTvkNgEHQm2DHkz_productImageList";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    var mode = "production";
+    var checkWindowWidth = $(window).width();
+    var widthSliderCurrent;
+    var sizeIconDotsCurrent;
+    var imageListPositionCurrent;
+    var $imgSlide = $element.find(".gt_product-carousel-box");
+    var $imgBox = $element.find(".gt_product-img-box");
+    var $imgBoxInner = $element.find(".gt_product-img--inner");
+    var $imgSlideItem = $element.find(".gt_product-carousel--item");
+    var $productImgInner = $element.find(".gt_product-image--inner");
+    var $controlNext = $element.find(".gt_product--swiper .gt_control-next");
+    var $controlPrev = $element.find(".gt_product--swiper .gt_control-prev");
+    var dynamicDotsOnOff = "false" === "true";
+    var slidesPerView_lg = "5.5";
+    var slidesPerView_md = "5.5";
+    var slidesPerView_sm = "5";
+    var slidesPerView_xs = "5";
+    var spaceBetween_lg = parseInt("8") || 1;
+    var spaceBetween_md = parseInt("8") || 1;
+    var spaceBetween_sm = parseInt("16") || 1;
+    var spaceBetween_xs = parseInt("10") || 1;
+    var widthActive = "false" === "true";
+    var widthSlider = "100%";
+    var widthSlider_lg = "100%";
+    var widthSlider_md = "100%";
+    var widthSlider_sm = "100%";
+    var widthSlider_xs = "100%";
+    var sizeIconDots_sm = "20px";
+    var sizeIconDots_xs = "15px";
+    var imageRadio = "square";
+    var initShowFeatureImage = "selectedVariantAvailable" === "featureImage";
+    var imageListPosition = "bottom";
+    var imageListPosition_lg = "bottom";
+    var imageListPosition_md = "bottom";
+    var imageListPosition_sm = "bottom";
+    var imageListPosition_xs = "bottom";
+    var imageListActive = "false" === "true";
+    var spaceBetween_sm = "16";
+    var spaceBetween_xs = "10";
+    var scaleZoomImageActive = "true" === "true";
+    var mySwiper;
+    var mySwiperFeature;
+    var spacingSmall = "16px";
+    /* store get state block script */
+    /* methods block script */
+    function listen() {
+      let observer = new ResizeObserver(() => {
+        if (mySwiper) {
+          mySwiper.update()
+        }
+      })
+      observer.observe($element[0]);
+    }
+
+    function initSlider() {
+      if (mySwiper) {
+        mySwiper.destroy();
+      }
+
+      var $swiperContainer = $element.find(".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList");
+      if (!$swiperContainer || !$swiperContainer.length) {
+        return;
+      }
+
+      if ($swiperContainer[0].swiper) {
+        $swiperContainer[0].swiper.destroy();
+      }
+
+      if (mySwiperFeature) {
+        mySwiperFeature.destroy();
+      }
+
+      if ($swiperContainer.find(".swiper-slide").length == 1) {
+        $swiperContainer.addClass("gt_disabled");
+      }
+
+      var $swiperContainerFeature = $element.find(".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList");
+      if (!$swiperContainerFeature || !$swiperContainerFeature.length) {
+        return;
+      }
+
+      if ($swiperContainerFeature[0].swiper) {
+        $swiperContainerFeature[0].swiper.destroy();
+      }
+
+      if ($swiperContainerFeature.find(".swiper-slide").length == 1) {
+        $swiperContainerFeature.find(".swiper-wrapper").addClass("gt_disabled");
+        $swiperContainerFeature.find(".gt_control-pagination").addClass("gt_disabled");
+      }
+
+      var gtProductImageParams = {
+        $element: $element,
+        settings: {
+          classSwiperItems: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-carousel--item",
+          classSwiperItemsImage: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-carousel--item img",
+          classSwiperContainer: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList",
+          initShowFeatureImage: initShowFeatureImage,
+          swiperSetting: getDataSwiperSettings(),
+          //featureimageswiper
+          featureSwiperSetting: getDataSwiperSettingsFeature(),
+          classFeatureSwiperContainer: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList",
+          classFeatureSwiperItemsImage: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-image--feature",
+        }
+      }
+
+      window.SOLID.library.gtProductImagesV2(gtProductImageParams);
+
+      mySwiper = $swiperContainer[0].swiper;
+      mySwiperFeature = $swiperContainerFeature[0].swiper;
+    }
+
+    function listen() {
+      let observer = new ResizeObserver(() => {
+        if (mySwiper) {
+          mySwiper.update()
+        }
+      })
+      observer.observe($element[0]);
+    }
+
+    function getDataSwiperSettings() {
+      let direction = 'horizontal';
+      if (imageListPositionCurrent === "left" || imageListPositionCurrent === "right") {
+        direction = "vertical";
+      }
+      return {
+        mousewheel: false,
+        slidesPerView: 3,
+        spaceBetween: 16,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        navigation: {
+          nextEl: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_control-next",
+          prevEl: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_control-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: slidesPerView_xs,
+            spaceBetween: spaceBetween_xs,
+            direction: direction,
+            mousewheel: false,
+            pagination: {
+              dynamicBullets: dynamicDotsOnOff,
+              dynamicMainBullets: 1,
+            },
+          },
+          577: {
+            slidesPerView: slidesPerView_sm,
+            spaceBetween: spaceBetween_sm,
+            direction: direction,
+            mousewheel: false,
+            pagination: {
+              dynamicBullets: dynamicDotsOnOff,
+              dynamicMainBullets: 1,
+            },
+          },
+          993: {
+            slidesPerView: slidesPerView_md,
+            spaceBetween: spaceBetween_md,
+            direction: direction,
+            mousewhel: true,
+          },
+          1201: {
+            slidesPerView: slidesPerView_lg,
+            spaceBetween: spaceBetween_lg,
+            direction: direction,
+            mousewhel: true,
+          }
+        },
+      }
+    }
+
+    function getDataSwiperSettingsFeature() {
+      return {
+        slidesPerView: 1,
+        spaceBetween: 16,
+        navigation: {
+          nextEl: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-img-nav--right",
+          prevEl: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-img-nav--left",
+        },
+        pagination: {
+          el: ".gt_control-pagination",
+          type: 'bullets',
+          clickable: true,
+          renderBullet: function(index, classname) {
+            return `<div class="gt_control-pagination-item ` + classname + ` ">
+            <span data-optimize-type="icon"  data-attribute="iconDots,"  data-section-id="zTvkNgEHQm2DHkz_productImageList"  class="gt_icon"><svg height="100%" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 22C13.05 22 13.5 21.55 13.5 21V3C13.5 2.45 13.05 2 12.5 2C11.95 2 11.5 2.45 11.5 3V21C11.5 21.55 11.95 22 12.5 22ZM8.5 18C9.05 18 9.5 17.55 9.5 17V7C9.5 6.45 9.05 6 8.5 6C7.95 6 7.5 6.45 7.5 7V17C7.5 17.55 7.95 18 8.5 18ZM5.5 13C5.5 13.55 5.05 14 4.5 14C3.95 14 3.5 13.55 3.5 13V11C3.5 10.45 3.95 10 4.5 10C5.05 10 5.5 10.45 5.5 11V13ZM16.5 18C17.05 18 17.5 17.55 17.5 17V7C17.5 6.45 17.05 6 16.5 6C15.95 6 15.5 6.45 15.5 7V17C15.5 17.55 15.95 18 16.5 18ZM19.5 13V11C19.5 10.45 19.95 10 20.5 10C21.05 10 21.5 10.45 21.5 11V13C21.5 13.55 21.05 14 20.5 14C19.95 14 19.5 13.55 19.5 13Z" fill="currentColor"/> </svg></span>
+          </div>`;
+          }
+        },
+        breakpoints: {
+          0: {
+            pagination: {
+              dynamicBullets: dynamicDotsOnOff,
+              dynamicMainBullets: 1,
+            },
+          },
+          577: {
+            pagination: {
+              dynamicBullets: dynamicDotsOnOff,
+              dynamicMainBullets: 1,
+            },
+          }
+        },
+      }
+    }
+
+    function changeSliderActive(value) {
+      if (value && value.sliderIndex !== NaN) {
+        if (loop) {
+          mySwiper.slideToLoop(value.sliderIndex, 500, true);
+        } else {
+          mySwiper.slideTo(value.sliderIndex, 500, true);
+        }
+      }
+    }
+
+    function isImgSliderBottom() {
+      const $productImage = $element.find(".gt_product-image-list--bottom");
+      if ($productImage && $productImage.length) {
+        return true;
+      }
+      return false;
+    }
+
+    function checkImageListActive() {
+      checkWindowWidth = $(window).width();
+      if (checkWindowWidth <= 576) {
+        if (imageListActive) {
+          slidesPerView_xs = "5";
+          spaceBetween_xs = "10";
+        } else if (!imageListActive) {
+          slidesPerView_xs = 1;
+          spaceBetween_xs = 0;
+        }
+      } else if (checkWindowWidth <= 992) {
+        if (imageListActive) {
+          slidesPerView_sm = "5";
+          spaceBetween_sm = "16"
+        } else if (!imageListActive) {
+          slidesPerView_sm = 1;
+          spaceBetween_sm = 0;
+        }
+      }
+    }
+
+    function calculatorImageSlideHeight() {
+      var delay = setTimeout(function() {
+        checkWindowWidth = $(window).width();
+        if (!isImgSliderBottom()) {
+          var imgBoxHeight = $imgBox[0].offsetHeight;
+          $imgSlide.css("height", imgBoxHeight);
+          mySwiper.update();
+        } else {
+          $imgSlide.css("height", "");
+        }
+      }, 500);
+    }
+
+    function optimizeSizeIconDots(value) {
+      mySwiper.pagination.render();
+      var $paginationItem = $element.find(".gt_control-pagination-item");
+      var $paginationItemIcon = $element.find(".gt_control-pagination-item .gt_icon");
+      checkWindowWidth = $(window).width();
+      if (checkWindowWidth <= 576) {
+        sizeIconDots_xs = value;
+      } else if (checkWindowWidth <= 992) {
+        sizeIconDots_sm = value;
+      }
+      $paginationItemIcon.css("cssText", "width: " + value + " !important; height: " + value + "!important;");
+      $paginationItem.css("cssText", "width: calc(8px + " + value + ") !important; height: calc(8px + " + value + ") !important;");
+      mySwiper.pagination.update();
+    }
+
+    function optimizeSlidePerView(value) {
+      checkWindowWidth = $(window).width();
+      if (checkWindowWidth <= 576) {
+        slidesPerView_xs = value;
+      } else if (checkWindowWidth <= 992) {
+        slidesPerView_sm = value;
+      } else if (checkWindowWidth <= 1200) {
+        slidesPerView_md = value;
+      } else {
+        slidesPerView_lg = value;
+      }
+      initSlider();
+    }
+
+    function optimizeWidthSlider(value) {
+      checkWindowWidth = $(window).width();
+      if (checkWindowWidth <= 576) {
+        widthSlider_xs = value;
+      } else if (checkWindowWidth <= 992) {
+        widthSlider_sm = value;
+      } else if (checkWindowWidth <= 1200) {
+        widthSlider_md = value;
+      } else {
+        widthSlider_lg = widthSlider = value;
+      }
+      $element.css("cssText", "width: " + value + " !important;");
+      mySwiper.update();
+      calculatorImageSlideHeight();
+    }
+
+    function optimizeWidthActive(value) {
+      widthActive = value;
+      if (!value) {
+        $element.css("cssText", "width: null");
+      } else {
+        checkWindowWidth = $(window).width();
+        widthSliderCurrent = 0;
+        if (checkWindowWidth <= 576) {
+          widthSliderCurrent = widthSlider_xs;
+        } else if (checkWindowWidth <= 992) {
+          widthSliderCurrent = widthSlider_sm;
+        } else if (checkWindowWidth <= 1200) {
+          widthSliderCurrent = widthSlider_md;
+        } else {
+          widthSliderCurrent = widthSlider;
+        }
+        $element.css("cssText", "width: " + widthSliderCurrent + " !important;");
+        initSlider();
+        mySwiper.update();
+      }
+    }
+
+    function checkImageListPosition() {
+      checkWindowWidth = $(window).width();
+      if (checkWindowWidth <= 576) {
+        imageListPositionCurrent = imageListPosition_xs;
+        spacingSmall = "10px";
+      } else if (checkWindowWidth <= 992) {
+        imageListPositionCurrent = imageListPosition_sm;
+        spacingSmall = "16px";
+      } else if (checkWindowWidth <= 1200) {
+        imageListPositionCurrent = imageListPosition_md;
+        spacingSmall = "16px";
+      } else {
+        imageListPositionCurrent = imageListPosition;
+        spacingSmall = "16px";
+      }
+      $element.find("#gt_product-image-list-id").attr("class", "gt_product-image-list--" + imageListPositionCurrent);
+      //showimage
+      var $swiperWrapperHide = $element.find(".gt-carousel--hide-default");
+      if ($swiperWrapperHide && $swiperWrapperHide.length) {
+        $swiperWrapperHide.removeClass("gt-carousel--hide-default");
+      }
+      if (imageListPositionCurrent !== "bottom") {
+        var $productImageListWrapper = $element.find(".gt_product-carousel-box");
+        var $productImageBox = $element.find(".gt_product-image--inner");
+        $productImageListWrapper.css("height", $productImageBox.outerHeight());
+      }
+      //css
+      if (imageListPositionCurrent === "left" || imageListPositionCurrent === "right") {
+        $controlNext.css({
+          "height": "auto",
+          "width": "100%"
+        });
+        $controlPrev.css({
+          "height": "auto",
+          "width": "100%"
+        });
+      }
+      if (imageListPositionCurrent === "left") {
+        $productImgInner.css("flex-direction", "row-reverse");
+        $imgSlide.css({
+          "padding-left": "0",
+          "padding-right": spacingSmall
+        });
+      } else if (imageListPositionCurrent === "right") {
+        $productImgInner.css("flex-direction", "row");
+        $imgSlide.css({
+          "padding-right": "0",
+          "padding-left": spacingSmall
+        });
+      } else {
+        $productImgInner.css("flex-direction", "column");
+        $imgSlide.css("padding", "");
+        $controlNext.css({
+          "height": "100%",
+          "width": "auto"
+        });
+        $controlPrev.css({
+          "height": "100%",
+          "width": "auto"
+        });
+      }
+      initSlider();
+      mySwiper.update();
+    }
+
+    function optimizeImageListPosition(value) {
+      checkWindowWidth = $(window).width();
+      if (checkWindowWidth <= 576) {
+        imageListPosition_xs = imageListPositionCurrent = value;
+      } else if (checkWindowWidth <= 992) {
+        imageListPosition_sm = imageListPositionCurrent = value;
+      } else if (checkWindowWidth <= 1200) {
+        imageListPosition_md = imageListPositionCurrent = value;
+      } else {
+        imageListPosition_lg = imageListPositionCurrent = imageListPosition = value;
+      }
+      if (imageListPositionCurrent === "left" || imageListPositionCurrent === "right") {
+        $controlNext.css({
+          "height": "auto",
+          "width": "100%"
+        });
+        $controlPrev.css({
+          "height": "auto",
+          "width": "100%"
+        });
+      }
+      if (imageListPositionCurrent === "left") {
+        $productImgInner.css("flex-direction", "row-reverse");
+        $imgSlide.css({
+          "padding-left": "0",
+          "padding-right": spacingSmall
+        });
+      } else if (imageListPositionCurrent === "right") {
+        $productImgInner.css("flex-direction", "row");
+        $imgSlide.css({
+          "padding-right": "0",
+          "padding-left": spacingSmall
+        });
+      } else {
+        $productImgInner.css("flex-direction", "column");
+        $imgSlide.css("padding", "");
+        $controlNext.css({
+          "height": "100%",
+          "width": "auto"
+        });
+        $controlPrev.css({
+          "height": "100%",
+          "width": "auto"
+        });
+      }
+      $element.find("#gt_product-image-list-id").attr("class", "gt_product-image-list--" + value);
+      initSlider();
+      mySwiper.update();
+      calculatorImageSlideHeight();
+    }
+
+    function optimizeImageRadio(value) {
+      checkWindowWidth = $(window).width();
+      if (value === "square") {
+        $imgBoxInner.css("padding-top", "calc(100%)");
+      } else if (value === "landscape") {
+        $imgBoxInner.css("padding-top", "calc(100% * 3 / 4)");
+      } else if (value === "portrait") {
+        $imgBoxInner.css("padding-top", "calc(100% * 4 / 3)");
+      }
+      if (isImgSliderBottom()) {
+        if (value === "square") {
+          $imgSlideItem.css("padding-top", "calc(100%)");
+        } else if (value === "landscape") {
+          $imgSlideItem.css("padding-top", "calc(100% * 3 / 4)");
+        } else if (value === "portrait") {
+          $imgSlideItem.css("padding-top", "calc(100% * 4 / 3)");
+        }
+      }
+      calculatorImageSlideHeight();
+    }
+
+    function optimizeImageRadioActive(value) {
+      if (!value) {
+        $imgBoxInner.css("padding-top", "");
+        $imgSlideItem.css("padding-top", "");
+      } else {
+        optimizeImageRadio(value);
+        checkWindowWidth = $(window).width();
+        if (value === "square") {
+          $imgBoxInner.css("padding-top", "calc(100%)");
+        } else if (value === "landscape") {
+          $imgBoxInner.css("padding-top", "calc(100% * 3 / 4)");
+        } else if (value === "portrait") {
+          $imgBoxInner.css("padding-top", "calc(100% * 4 / 3)");
+        }
+        if (isImgSliderBottom() || checkWindowWidth < 992) {
+          if (value === "square") {
+            $imgSlideItem.css("padding-top", "calc(100%)");
+          } else if (value === "landscape") {
+            $imgSlideItem.css("padding-top", "calc(100% * 3 / 4)");
+          } else if (value === "portrait") {
+            $imgSlideItem.css("padding-top", "calc(100% * 4 / 3)");
+          }
+        }
+      }
+      calculatorImageSlideHeight();
+    }
+
+    function optimizeDynamicDotsOnOff(value) {
+      dynamicDotsOnOff = value;
+      initSlider();
+      var paginationEl = mySwiperFeature.pagination.el;
+      if (value) {
+        paginationEl.style.cssText = paginationEl.style.cssText + "margin: 0px auto; transform: translateX(0px); justify-content: unset;";
+      } else {
+        paginationEl.style.cssText = paginationEl.style.cssText + "justify-content: center;";
+        paginationEl.classList.remove("swiper-pagination-bullets-dynamic");
+      }
+      mySwiperFeature.pagination.update();
+      mySwiperFeature.update();
+    }
+    /* init block script */
+    listen();
+    if (scaleZoomImageActive) {
+      $element.find(".gt_product-image--feature").gfProductZoomImage({
+        classHoverItem: ".gt_product-img-box",
+        scale: "1.5",
+        classSection: ".gt_atom-zTvkNgEHQm2DHkz_productImageList",
+      });
+    }
+    checkImageListPosition();
+    checkImageListActive();
+    initSlider();
+    calculatorImageSlideHeight();
+
+    var delayResize = 0;
+    $(window).off("resize.checkSwitchScreenszTvkNgEHQm2DHkz_productImageList").on("resize.checkSwitchScreenszTvkNgEHQm2DHkz_productImageList", function() {
+      clearTimeout(delayResize);
+      delayResize = setTimeout(function() {
+        const windowWidthCurrent = $(window).width();
+        if (windowWidthCurrent !== checkWindowWidth) {
+          checkWindowWidth = windowWidthCurrent;
+          widthSliderCurrent = 0;
+          sizeIconDotsCurrent = 0;
+          if (checkWindowWidth <= 576) {
+            widthSliderCurrent = widthSlider_xs;
+            sizeIconDotsCurrent = sizeIconDots_xs;
+          } else if (checkWindowWidth <= 992) {
+            widthSliderCurrent = widthSlider_sm;
+            sizeIconDotsCurrent = sizeIconDots_sm;
+          } else if (checkWindowWidth <= 1200) {
+            widthSliderCurrent = widthSlider_md;
+          } else {
+            widthSliderCurrent = widthSlider;
+          }
+          if (widthActive) {
+            $element.css("cssText", "width: " + widthSliderCurrent + " !important;");
+            mySwiper.update();
+          }
+          var $paginationItem = $element.find(".gt_control-pagination-item");
+          var $paginationItemIcon = $element.find(".gt_control-pagination-item .gt_icon");
+          $paginationItemIcon.css("cssText", "width: " + sizeIconDotsCurrent + " !important; height: " + sizeIconDotsCurrent + "!important;");
+          $paginationItem.css("cssText", "width: calc(8px + " + sizeIconDotsCurrent + ") !important; height: calc(8px + " + sizeIconDotsCurrent + ") !important;");
+
+          checkImageListPosition();
+          calculatorImageSlideHeight();
+          checkImageListActive();
+          initSlider();
+        }
+      }, 100)
+    });
+
+    if ($element.find(".swiper-slide").length == 1) {
+      $element.find('.swiper-wrapper').addClass("gt_disabled");
+      $element.find('.gt_control-pagination').addClass("gt_disabled");
+    }
+    /* store subscribe block script */
+    store.subscribe("optimize-zTvkNgEHQm2DHkz_productImageList-sizeIconDots", optimizeSizeIconDots);
+    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-slidesPerView", optimizeSlidePerView);
+    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthSlider", optimizeWidthSlider);
+    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthActive", optimizeWidthActive);
+    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadio", optimizeImageRadio);
+    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadioActive", optimizeImageRadioActive);
+    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-dynamicDotsOnOff", optimizeDynamicDotsOnOff);
+    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageListPosition", optimizeImageListPosition);
+    store.subscribe("trigger-slider-zTvkNgEHQm2DHkz_productImageList", changeSliderActive);
+
+    function destroy() {
+      store.unsubscribe("optimize-zTvkNgEHQm2DHkz_productImageList-sizeIconDots", optimizeSizeIconDots);
+      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-slidesPerView", optimizeSlidePerView);
+      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthSlider", optimizeWidthSlider);
+      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthActive", optimizeWidthActive);
+      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadio", optimizeImageRadio);
+      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadioActive", optimizeImageRadioActive);
+      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-dynamicDotsOnOff", optimizeDynamicDotsOnOff);
+      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageListPosition", optimizeImageListPosition);
+      store.unsubscribe("trigger-slider-zTvkNgEHQm2DHkz_productImageList", changeSliderActive);
+    }
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productImageList()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productImageList" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_boxInfo() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxInfo";
+  var id = "zTvkNgEHQm2DHkz_boxInfo";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settings = {
+          elementId: "zTvkNgEHQm2DHkz_boxInfo",
+          $doms: $(elementClassName),
+          animationType: "block",
+          mode: "production",
+        }
+        if (scrollIntoViewActive) {
+          settings.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView"
+          }
+        }
+        if (animationActive) {
+          settings.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation"
+          }
+        }
+        if (animationHoverActive) {
+          settings.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          }
+        }
+        window.SOLID.library.animation(settings)
+      }
+    }
+    /* init block script */
+    addInteraction();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_boxInfo()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxInfo" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productTitle() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productTitle";
+  var id = "zTvkNgEHQm2DHkz_productTitle";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settingsBlock = {
+          elementId: "zTvkNgEHQm2DHkz_productTitle",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "block"
+        };
+        var settingsText = {
+          elementId: "zTvkNgEHQm2DHkz_productTitle",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "text"
+        };
+        if (scrollIntoViewActive) {
+          settingsText.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView",
+          };
+        }
+        if (animationActive) {
+          settingsBlock.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation",
+          };
+        }
+        if (animationHoverActive) {
+          settingsBlock.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          };
+        }
+        window.SOLID.library.animation(settingsText);
+        window.SOLID.library.animation(settingsBlock);
+      }
+    }
+    /* init block script */
+    addInteraction();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productTitle()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productTitle" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_boxPrice() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxPrice";
+  var id = "zTvkNgEHQm2DHkz_boxPrice";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settings = {
+          elementId: "zTvkNgEHQm2DHkz_boxPrice",
+          $doms: $(elementClassName),
+          animationType: "block",
+          mode: "production",
+        }
+        if (scrollIntoViewActive) {
+          settings.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView"
+          }
+        }
+        if (animationActive) {
+          settings.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation"
+          }
+        }
+        if (animationHoverActive) {
+          settings.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          }
+        }
+        window.SOLID.library.animation(settings)
+      }
+    }
+    /* init block script */
+    addInteraction();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_boxPrice()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxPrice" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_boxDeal() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxDeal";
+  var id = "zTvkNgEHQm2DHkz_boxDeal";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settings = {
+          elementId: "zTvkNgEHQm2DHkz_boxDeal",
+          $doms: $(elementClassName),
+          animationType: "block",
+          mode: "production",
+        }
+        if (scrollIntoViewActive) {
+          settings.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView"
+          }
+        }
+        if (animationActive) {
+          settings.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation"
+          }
+        }
+        if (animationHoverActive) {
+          settings.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          }
+        }
+        window.SOLID.library.animation(settings)
+      }
+    }
+    /* init block script */
+    addInteraction();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_boxDeal()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxDeal" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_icon() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_icon";
+  var id = "zTvkNgEHQm2DHkz_icon";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settings = {
+          elementId: "zTvkNgEHQm2DHkz_icon",
+          $doms: $(elementClassName),
+          animationType: "block",
+          mode: "production",
+        }
+        if (scrollIntoViewActive) {
+          settings.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView"
+          }
+        }
+        if (animationActive) {
+          settings.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation"
+          }
+        }
+        if (animationHoverActive) {
+          settings.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          }
+        }
+        window.SOLID.library.animation(settings)
+      }
+    }
+    /* init block script */
+    addInteraction();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_icon()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_icon" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_textLink() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_textLink";
+  var id = "zTvkNgEHQm2DHkz_textLink";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settingsBlock = {
+          elementId: "zTvkNgEHQm2DHkz_textLink",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "block"
+        }
+        var settingsText = {
+          elementId: "zTvkNgEHQm2DHkz_textLink",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "text"
+        }
+        if (scrollIntoViewActive) {
+          settingsText.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView",
+          }
+        }
+        if (animationActive) {
+          settingsBlock.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation",
+          }
+        }
+        if (animationHoverActive) {
+          settingsBlock.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          }
+        }
+        window.SOLID.library.animation(settingsText);
+        window.SOLID.library.animation(settingsBlock);
+      }
+    }
+    /* init block script */
+    addInteraction();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_textLink()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_textLink" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productPrice() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productPrice";
+  var id = "zTvkNgEHQm2DHkz_productPrice";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const syncQuantityandPrice = "true" == "true";
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settingsBlock = {
+          elementId: "zTvkNgEHQm2DHkz_productPrice",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "block"
+        };
+        var settingsText = {
+          elementId: "zTvkNgEHQm2DHkz_productPrice",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "text"
+        };
+        if (scrollIntoViewActive) {
+          settingsText.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView",
+          };
+        }
+        if (animationActive) {
+          settingsBlock.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation",
+          };
+        }
+        if (animationHoverActive) {
+          settingsBlock.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          };
+        }
+        window.SOLID.library.animation(settingsText);
+        window.SOLID.library.animation(settingsBlock);
+      }
+    }
+    /* init block script */
+    addInteraction();
+    $element.gtProductPrice({
+      classCurrentPrice: ".gt_product-price--number",
+      syncQuantityPrice: syncQuantityandPrice,
+    });
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productPrice()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productPrice" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productComparePrice() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productComparePrice";
+  var id = "zTvkNgEHQm2DHkz_productComparePrice";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const syncQuantityandPrice = "true" == "true";
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settingsBlock = {
+          elementId: "zTvkNgEHQm2DHkz_productComparePrice",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "block"
+        };
+        var settingsText = {
+          elementId: "zTvkNgEHQm2DHkz_productComparePrice",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "text"
+        };
+        if (scrollIntoViewActive) {
+          settingsText.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView",
+          };
+        }
+        if (animationActive) {
+          settingsBlock.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation",
+          };
+        }
+        if (animationHoverActive) {
+          settingsBlock.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          };
+        }
+        window.SOLID.library.animation(settingsText);
+        window.SOLID.library.animation(settingsBlock);
+      }
+    }
+    /* init block script */
+    addInteraction();
+
+    $element.gtProductPrice({
+      classComparePrice: ".gt_product-price--compare",
+      classCurrentPrice: ".gt_product-price--number",
+      syncQuantityPrice: syncQuantityandPrice,
+    });
+    /* store subscribe block script */
+    function destroy() {}
+    /* events block script */
+    /* destroy block script */
+    store.subscribe("component-" + id + "-destroy", function() {
+      destroy();
+      store.unsubscribe("component-" + id + "-destroy");
+    });
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productComparePrice()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productComparePrice" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productTagSale() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productTagSale";
+  var id = "zTvkNgEHQm2DHkz_productTagSale";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target) {
+    var $element = $target;
+    /* data block script */
+    const roundPercent = Number("0");
+    const removeZeros = "true" === "true";
+    /* store get state block script */
+    /* methods block script */
+    /* init block script */
+    $element.gtProductSaved({
+      classTextPercent: ".gt_product-tag-sale--value--percent",
+      classTextNumber: ".gt_product-tag-sale--value--number",
+      dataFormat: "Saved [!Profit!]",
+      dataFormatKey: "[!Profit!]",
+      customCurrencyFormating: "shortPrefix",
+      roundPercent: roundPercent,
+      roundNoZeroes: removeZeros
+    });
+    /* store subscribe block script */
+    function destroy() {}
+    /* events block script */
+    /* destroy block script */
+    store.subscribe("component-" + id + "-destroy", function() {
+      destroy();
+      store.unsubscribe("component-" + id + "-destroy");
+    });
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productTagSale()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productTagSale" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productTagSaleNumber() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productTagSaleNumber";
+  var id = "zTvkNgEHQm2DHkz_productTagSaleNumber";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target) {
+    var $element = $target;
+    /* data block script */
+    const roundPercent = Number("0");
+    const removeZeros = "true" === "true";
+    /* store get state block script */
+    /* methods block script */
+    /* init block script */
+    $element.gtProductSaved({
+      classTextPercent: ".gt_product-tag-sale--value--percent",
+      classTextNumber: ".gt_product-tag-sale--value--number",
+      dataFormat: "[!Profit!]",
+      dataFormatKey: "[!Profit!]",
+      customCurrencyFormating: "shortPrefix",
+      roundPercent: roundPercent,
+      roundNoZeroes: removeZeros
+    });
+    /* store subscribe block script */
+    function destroy() {}
+    /* events block script */
+    /* destroy block script */
+    store.subscribe("component-" + id + "-destroy", function() {
+      destroy();
+      store.unsubscribe("component-" + id + "-destroy");
+    });
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productTagSaleNumber()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productTagSaleNumber" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productVariant() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productVariant";
+  var id = "zTvkNgEHQm2DHkz_productVariant";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    var $variantChecked = $element.find(".gt_product-variant--checked");
+    var $variantOptions = $element.find(".gt_product-variant-options");
+    var mode = "production";
+    var animationActive = 'false';
+    var timeoutTooltip = null;
+    /* store get state block script */
+    /* methods block script */
+    function animation() {
+      if (animationActive === "true") {
+        var interactionScrollIntoView =
+          '""';
+        window.SOLID.library.animation({
+          elementId: id,
+          $doms: $elements,
+          interactionScrollIntoView: {
+            value: JSON.parse(interactionScrollIntoView),
+            previewAttr: "interactionScrollIntoView",
+          },
+          animationType: "block",
+          mode: mode,
+        });
+      }
+    }
+
+    function initSwatches() {
+      window.SOLID.library.gtProductSwatchesV2({
+        $element: $element,
+        settings: {
+          classCurrentValue: ".gt_product-variant-option--selected span",
+          classItem: ".gt_variant--select-item",
+          classInputIdHidden: ".gt_variant--input",
+          classBtnSelect: ".gt_product-variant--btn-select",
+        }
+      });
+    }
+
+    function openSelectDropdown() {
+      $variantChecked.removeClass("gt_active");
+      var $options = $(this).siblings(".gt_product-variant-options");
+      if ($options.hasClass("gt_active")) {
+        $options.css("top", "");
+        $options.removeClass("gt_active");
+        $(this).removeClass("gt_active");
+        clearEventShowTooltip();
+        $(document).off("mousedown.outsideClickVariantSelect");
+      } else {
+        $variantOptions.removeClass("gt_active");
+        $options.addClass("gt_active");
+        $(this).addClass("gt_active");
+        var optionsOuterHeight = $options.outerHeight();
+        var selectInputHeight = $variantChecked.outerHeight();
+        var positionOptions = $options.offset().top - $(document).scrollTop() + optionsOuterHeight;
+        var windowHeight = $(window).outerHeight();
+        if (positionOptions > windowHeight) {
+          const currentTopOptions = $options.css("top");
+          const newTop = "calc( " + currentTopOptions + " - " + optionsOuterHeight + "px" + " - " + (Number(selectInputHeight) + 10) + "px" + " )";
+          $options.css("top", newTop);
+        }
+        clearTimeout(timeoutTooltip);
+        timeoutTooltip = setTimeout(() => {
+          eventShowTooltipSelectType();
+        }, 300)
+        //addeventclickoutsidetoclose
+        const $currentTargetOptions = $(this);
+        $(document).off("mousedown.outsideClickVariantSelect").on("mousedown.outsideClickVariantSelect", function(event) {
+          if ($options && $options.length && $currentTargetOptions && $currentTargetOptions.length) {
+            const $optionsPure = $options[0];
+            if ($optionsPure && !$optionsPure.contains(event.target) && !$currentTargetOptions[0].contains(event.target)) {
+              $options.css("top", "");
+              $options.removeClass("gt_active");
+              $currentTargetOptions.removeClass("gt_active");
+              clearEventShowTooltip();
+              $(document).off("mousedown.outsideClickVariantSelect");
+            }
+          }
+        });
+      }
+    }
+
+    function onClickSelectDropDown() {
+      $variantChecked.removeClass("gt_active");
+      $variantOptions.removeClass("gt_active");
+      var value = $(this).attr("data-value");
+      var $variantCheckedCurrent = $(this).closest(
+        ".gt_product-variant--select-box"
+      );
+      var $valueVariantChecked = $variantCheckedCurrent.find(
+        ".gt_product-variant--checked .gt_product-variant-option--selected span"
+      );
+      var $contentOptionSelect = $(this).html();
+      $valueVariantChecked.attr("data-value", value);
+      $valueVariantChecked.html($contentOptionSelect);
+      //closetooltip
+      const $tooltip = $element.find(".gt_product-variant-tooltip");
+      $tooltip.css("display", "none");
+      clearEventShowTooltip();
+    }
+
+    function hideAtomWhenNoVariant() {
+      $element.css("display", "");
+      var isHide = true;
+      var $variantItems = $element.find(".gt_product-variant--item")
+      for (var i = 0; i < $variantItems.length; i++) {
+        var $item = $($variantItems[i]);
+        var display = $item.css("display");
+        if (display !== "none") {
+          isHide = false;
+          break;
+        }
+      }
+      if (isHide) {
+        $element.css("display", "none");
+      }
+    }
+
+    function eventShowTooltipSelectType() {
+      const $selectItems = $element.find(".gt_variant--select-item");
+      for (var i = 0; i < $selectItems.length; i++) {
+        const $selectItem = $($selectItems[i]);
+        const $selectOptions = $selectItem.find(".gt_product-variant-option");
+        const $tooltip = $selectItem.find(".gt_product-variant-tooltip");
+        $selectOptions.off("mouseenter").on("mouseenter", function() {
+          //checkoverflow
+          const $contentValue = $(this).find(".gt_product-variant-option--txt");
+          const cachedDisplayContentValue = $contentValue.css("display");
+          $contentValue.css({
+            display: "inline",
+            overflow: "unset",
+            whiteSpace: "nowrap"
+          });
+          const realWidth = $contentValue.outerWidth();
+          $contentValue.css({
+            display: cachedDisplayContentValue,
+            overflow: "",
+            whiteSpace: ""
+          });
+          //
+          const selectOptionTop = this.getBoundingClientRect().top;
+          const selectItemTop = $selectItem[0].getBoundingClientRect().top;
+          const selectOptionHeight = $(this).outerHeight();
+          const selectOptionWidth = $(this).outerWidth();
+          const contentSelect = $contentValue.html();
+          if (realWidth > selectOptionWidth) {
+            $tooltip.find(".gt_product-variant-tooltip-name").html(contentSelect);
+            $tooltip.css({
+              display: "block",
+              top: selectOptionTop - selectItemTop - selectOptionHeight,
+              zIndex: 10
+            });
+            $tooltip.find(".gt_product-variant-tooltip-arrow").css({
+              left: selectOptionWidth / 2 + "px",
+            })
+          }
+        });
+        $selectOptions.off("mouseleave").on("mouseleave", function() {
+          $tooltip.css({
+            display: "none"
+          })
+        });
+      }
+    }
+
+    function clearEventShowTooltip() {
+      const $selectitems = $element.find(".gt_variant--select-item");
+      for (var i = 0; i < $selectitems.length; i++) {
+        const $selectitem = $($selectitems[i]);
+        const $selectoptions = $selectitem.find(".gt_product-variant-option");
+        $selectoptions.off("mouseenter");
+        $selectoptions.off("mouseleave");
+      }
+    }
+    /* init block script */
+    hideAtomWhenNoVariant();
+    initSwatches();
+    animation();
+    /* store subscribe block script */
+    /* events block script */
+    var $elements_1 = $element.find(".gt_product-variant--checked");
+    $elements_1.off("click.openSelect").on("click.openSelect", openSelectDropdown);
+    var $elements_2 = $element.find(".gt_product-variant-option");
+    $elements_2.off("click.selectItem").on("click.selectItem", onClickSelectDropDown);
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productVariant()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productVariant" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productQuantity() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productQuantity";
+  var id = "zTvkNgEHQm2DHkz_productQuantity";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    var style = "horizontal";
+    var mode = "production";
+    var interactionScrollIntoViewActive = "false";
+    /* store get state block script */
+    /* methods block script */
+    function animation() {
+      if (interactionScrollIntoViewActive === "true") {
+        var interactionScrollIntoView =
+          '""';
+        var $container = $element.find(".gt_product-quantity");
+        window.SOLID.library.animation({
+          elementId: id,
+          $doms: $container,
+          interactionScrollIntoView: {
+            value: JSON.parse(interactionScrollIntoView),
+            previewAttr: "interactionScrollIntoView",
+          },
+          animationType: "block",
+          mode: mode,
+        });
+      }
+    }
+
+    function initLibrary() {
+      var params = {
+        $element: $element,
+        settings: {
+          classInput: "input[name='quantity']",
+          classPlus: ".gt_quantity_plus",
+          classMinus: ".gt_quantity_minus",
+          mode: mode,
+        }
+      };
+      if (style === "horizontal") {
+        params = {
+          $element: $element,
+          settings: {
+            classInput: "input[name='quantity']",
+            classPlus: ".gt_product-quantity--plus",
+            classMinus: ".gt_product-quantity--minus",
+            mode: mode,
+          }
+        };
+      }
+      window.SOLID.library.gtProductQuantityV2(params);
+    }
+
+    function validateInput() {
+      var inputQuantity = $element.find("input[name='quantity']");
+      inputQuantity.keyup(function() {
+        var value = parseInt(this.value);
+        if (isNaN(value)) {
+          value = 1;
+        }
+        inputQuantity.attr("value", value).val(value);
+      })
+    }
+    /* init block script */
+    initLibrary();
+    animation();
+    validateInput();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productQuantity()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productQuantity" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productButtonBuyItNow() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productButtonBuyItNow";
+  var id = "zTvkNgEHQm2DHkz_productButtonBuyItNow";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target, indexEl) {
+    var $element = $target;
+    /* data block script */
+    var scrollIntoViewActive = 'false' == 'true';
+    var animationActive = 'false' == 'true';
+    var animationHoverActive = 'false' == 'true';
+    var scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    var animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    var animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    var mode = 'production';
+    var previewSoldOut = 'false';
+    var actions = '[{"control":{"attribute":"pickProductButton","id":"pickProductButton","isButtonAddToCard":true,"type":"pickproduct"},"event":"click","id":1},{"control":{"attribute":"pickLinkButton","id":"pickLinkButton","newTab":false,"reference":"html","title":"Pick Link","type":"picklink","value":"/cart"},"event":"click","id":2}]';
+    
+    /* store get state block script */
+    /* methods block script */
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settings = {
+          elementId: "zTvkNgEHQm2DHkz_productButtonBuyItNow",
+          $doms: $(elementClassName),
+          animationType: "block",
+          mode: "production",
+        };
+        if (scrollIntoViewActive) {
+          settings.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView",
+          };
+        }
+        if (animationActive) {
+          settings.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation",
+          };
+        }
+        if (animationHoverActive) {
+          settings.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover",
+          };
+        }
+        window.SOLID.library.animation(settings);
+      }
+    }
+
+    function eventChangeTextInIframe() {
+      
+    }
+
+    function eventListenSoldOut() {
+      if (mode !== "production") {
+        if (previewSoldOut === "false") {
+          window.SOLID.library.gtBuyProductListenSoldOut({
+            $element: $($element)[0],
+            options: {
+              isButtonAddToCard: true,
+              textAddToCard: "BUY IT NOW",
+              textSoldOut: "Sold out",
+            },
+            mode: "dev"
+          });
+        }
+      } else {
+        window.SOLID.library.gtBuyProductListenSoldOut({
+          $element: $($element)[0],
+          options: {
+            isButtonAddToCard: true,
+            textAddToCard: "BUY IT NOW",
+            textSoldOut: "Sold out",
+          },
+        });
+      }
+    }
+
+    function addActionEvent() {
+      // function customEvent(actions,id,key)
+      if (mode === "production") {
+        $($element).customEvent(
+          JSON.parse(actions),
+          'zTvkNgEHQm2DHkz_productButtonBuyItNow' + '_' + indexEl
+        );
+      }
+      /*Listenifisbuttonaddtocard*/
+      store.subscribe(
+        "loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow" + "_" + indexEl,
+        function(isDisplay) {
+          const $loadingEl = $($element).find(
+            ".atom-button-loading-circle-loader"
+          );
+          const $textEl = $($element).find(".gt_button-content-text");
+          if ($loadingEl && $loadingEl.length && $textEl && $textEl.length) {
+            let timeout = undefined;
+            if (isDisplay === true) {
+              /*displayloadingbutton*/
+              clearTimeout(timeout);
+              $loadingEl.css("display", "inline-block");
+              $textEl.css("visibility", "hidden");
+            } else if (isDisplay === "stop") {
+              /*stoploading*/
+              $loadingEl.removeAttr("style");
+              $textEl.removeAttr("style");
+              store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow", "");
+              store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow" + "_" + indexEl, "");
+            } else if (isDisplay === false) {
+              clearTimeout(timeout);
+              /*displaytickbutton*/
+              $loadingEl.addClass("load-complete");
+              $loadingEl
+                .find(".atom-button-loading-check-mark")
+                .css("display", "block");
+              /*removetickbuttonanddisplaytext*/
+              timeout = setTimeout(function() {
+                $loadingEl.removeClass("load-complete");
+                $loadingEl
+                  .find(".atom-button-loading-check-mark")
+                  .removeAttr("style");
+                $loadingEl.removeAttr("style");
+                $textEl.removeAttr("style");
+                store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow", "");
+                store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow" + "_" + indexEl, "");
+              }, 3000);
+            }
+          }
+        }
+      );
+    }
+    /* init block script */
+    addInteraction();
+    addActionEvent();
+    eventListenSoldOut();
+    eventChangeTextInIframe();
+    /* store subscribe block script */
+    /* events block script */
+    /* destroy block script */
+    
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target, indexEl);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productButtonBuyItNow()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productButtonBuyItNow" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESAtomzTvkNgEHQm2DHkz_productDescription() {
+          (function() {
+  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productDescription";
+  var id = "zTvkNgEHQm2DHkz_productDescription";
+  var $elements = document.querySelectorAll(elementClassName);
+  var store = window.SOLID.store;
+
+  function script($target) {
+    var $element = $target;
+    /* data block script */
+    const scrollIntoViewActive = "false" == "true";
+    const animationActive = "false" == "true";
+    const animationHoverActive = "false" == "true";
+    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
+    /* store get state block script */
+    /* methods block script */
+    function toggleDes() {
+      $element.find(".gt_description").toggleClass("open");
+    }
+
+    function addInteraction() {
+      if (animationActive || scrollIntoViewActive || animationHoverActive) {
+        var settingsBlock = {
+          elementId: "zTvkNgEHQm2DHkz_productDescription",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "block"
+        };
+        var settingsText = {
+          elementId: "zTvkNgEHQm2DHkz_productDescription",
+          $doms: $(elementClassName),
+          mode: "production",
+          animationType: "text"
+        };
+        if (scrollIntoViewActive) {
+          settingsText.interactionScrollIntoView = {
+            value: JSON.parse(scrollIntoView),
+            previewAttr: "scrollIntoView",
+          };
+        }
+        if (animationActive) {
+          settingsBlock.interactionNormal = {
+            value: JSON.parse(animation),
+            previewAttr: "animation",
+          };
+        }
+        if (animationHoverActive) {
+          settingsBlock.interactionHover = {
+            value: JSON.parse(animationHover),
+            previewAttr: "animationHover"
+          };
+        }
+        window.SOLID.library.animation(settingsText);
+        window.SOLID.library.animation(settingsBlock);
+      }
+    }
+    /* init block script */
+    $element.find(".gt_description").removeClass("open");
+    addInteraction();
+    /* store subscribe block script */
+    function destroy() {}
+    /* events block script */
+    var $elements_1 = $element.find("#toggleDes");
+    $elements_1.off("click").on("click", toggleDes);
+    /* destroy block script */
+    store.subscribe("component-" + id + "-destroy", function() {
+      destroy();
+      store.unsubscribe("component-" + id + "-destroy");
+    });
+  }
+  /* run all script */
+  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
+    var $target = $($elements[indexEl]);
+    script($target);
+  }
+  /*===================== DEVELOPER AREA ======================*/
+  /* BEGIN */
+
+  /* END */
+})();
+        }
+        funcESAtomzTvkNgEHQm2DHkz_productDescription()
+      } catch(e) {
+        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productDescription" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
+        function funcESSectionhMw4efW4b7YG9sz() {
+          var $section = $(".gt_section-hMw4efW4b7YG9sz");
+if (!$section || !$section.length) {
+  return;
+}
+
+/* Comment */
+store.change("optimal-hMw4efW4b7YG9sz-altImage", function({value, index}) {
+  $section.find('.image_insta[data-index="'+index+'"] img').attr("alt", value);
+});
+
+store.change("optimal-hMw4efW4b7YG9sz-linkItem", function({value, index}) {
+  $section.find('.link_items[data-index="'+index+'"]').attr("href", value);
+});
+/* End Comment */
+
+        }
+        funcESSectionhMw4efW4b7YG9sz()
+      } catch(e) {
+        console.error("Error ESSection Id: hMw4efW4b7YG9sz" )
+        console.log("=============================== START ERROR =================================")
+        console.log(e)
+        console.log("===============================  END ERROR  =================================")
+      }
+    
+      try {
         function funcESSectioni4YgRSgOZWKb33Y() {
           
         }
@@ -4622,2122 +6764,6 @@ exports.default = {};
       }
     
       try {
-        function funcESSectionzTvkNgEHQm2DHkz() {
-          
-        }
-        funcESSectionzTvkNgEHQm2DHkz()
-      } catch(e) {
-        console.error("Error ESSection Id: zTvkNgEHQm2DHkz" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_box() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_box";
-  var id = "zTvkNgEHQm2DHkz_box";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settings = {
-          elementId: "zTvkNgEHQm2DHkz_box",
-          $doms: $(elementClassName),
-          animationType: "block",
-          mode: "production",
-        }
-        if (scrollIntoViewActive) {
-          settings.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView"
-          }
-        }
-        if (animationActive) {
-          settings.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation"
-          }
-        }
-        if (animationHoverActive) {
-          settings.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          }
-        }
-        window.SOLID.library.animation(settings)
-      }
-    }
-
-    function checkRemoteDefaultInput() {
-      if (isExistAtomVariant()) {
-        var $inputVariantDefault = $element.find(".gt_variant-input--default");
-        if ($inputVariantDefault && $inputVariantDefault.length) {
-          $($inputVariantDefault[0]).remove()
-        }
-      }
-
-      if (isExistAtomQuantity()) {
-        var $inputQuantityDefault = $element.find(".gt_quantity-input--default");
-        if ($inputQuantityDefault && $inputQuantityDefault.length) {
-          $($inputQuantityDefault[0]).remove()
-        }
-      }
-    }
-
-    function isExistAtomVariant() {
-      var $atomProduct = $element.find(".gt_variant--input")
-      if ($atomProduct && $atomProduct.length) {
-        return true
-      }
-      return false
-    }
-
-    function isExistAtomQuantity() {
-      var $atomQuantity = $element.find(".gt_quantity--input")
-      if ($atomQuantity && $atomQuantity.length) {
-        return true
-      }
-      return false
-    }
-    /* init block script */
-    addInteraction();
-    checkRemoteDefaultInput();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_box()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_box" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_boxImage() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxImage";
-  var id = "zTvkNgEHQm2DHkz_boxImage";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settings = {
-          elementId: "zTvkNgEHQm2DHkz_boxImage",
-          $doms: $(elementClassName),
-          animationType: "block",
-          mode: "production",
-        }
-        if (scrollIntoViewActive) {
-          settings.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView"
-          }
-        }
-        if (animationActive) {
-          settings.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation"
-          }
-        }
-        if (animationHoverActive) {
-          settings.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          }
-        }
-        window.SOLID.library.animation(settings)
-      }
-    }
-    /* init block script */
-    addInteraction();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_boxImage()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxImage" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productImageList() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productImageList";
-  var id = "zTvkNgEHQm2DHkz_productImageList";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    var mode = "production";
-    var checkWindowWidth = $(window).width();
-    var widthSliderCurrent;
-    var sizeIconDotsCurrent;
-    var imageListPositionCurrent;
-    var $imgSlide = $element.find(".gt_product-carousel-box");
-    var $imgBox = $element.find(".gt_product-img-box");
-    var $imgBoxInner = $element.find(".gt_product-img--inner");
-    var $imgSlideItem = $element.find(".gt_product-carousel--item");
-    var $productImgInner = $element.find(".gt_product-image--inner");
-    var $controlNext = $element.find(".gt_product--swiper .gt_control-next");
-    var $controlPrev = $element.find(".gt_product--swiper .gt_control-prev");
-    var dynamicDotsOnOff = "false" === "true";
-    var slidesPerView_lg = "5.5";
-    var slidesPerView_md = "5.5";
-    var slidesPerView_sm = "5";
-    var slidesPerView_xs = "5";
-    var spaceBetween_lg = parseInt("8") || 1;
-    var spaceBetween_md = parseInt("8") || 1;
-    var spaceBetween_sm = parseInt("16") || 1;
-    var spaceBetween_xs = parseInt("10") || 1;
-    var widthActive = "false" === "true";
-    var widthSlider = "100%";
-    var widthSlider_lg = "100%";
-    var widthSlider_md = "100%";
-    var widthSlider_sm = "100%";
-    var widthSlider_xs = "100%";
-    var sizeIconDots_sm = "20px";
-    var sizeIconDots_xs = "15px";
-    var imageRadio = "square";
-    var initShowFeatureImage = "selectedVariantAvailable" === "featureImage";
-    var imageListPosition = "bottom";
-    var imageListPosition_lg = "bottom";
-    var imageListPosition_md = "bottom";
-    var imageListPosition_sm = "bottom";
-    var imageListPosition_xs = "bottom";
-    var imageListActive = "false" === "true";
-    var spaceBetween_sm = "16";
-    var spaceBetween_xs = "10";
-    var scaleZoomImageActive = "true" === "true";
-    var mySwiper;
-    var mySwiperFeature;
-    var spacingSmall = "16px";
-    /* store get state block script */
-    /* methods block script */
-    function listen() {
-      let observer = new ResizeObserver(() => {
-        if (mySwiper) {
-          mySwiper.update()
-        }
-      })
-      observer.observe($element[0]);
-    }
-
-    function initSlider() {
-      if (mySwiper) {
-        mySwiper.destroy();
-      }
-
-      var $swiperContainer = $element.find(".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList");
-      if (!$swiperContainer || !$swiperContainer.length) {
-        return;
-      }
-
-      if ($swiperContainer[0].swiper) {
-        $swiperContainer[0].swiper.destroy();
-      }
-
-      if (mySwiperFeature) {
-        mySwiperFeature.destroy();
-      }
-
-      if ($swiperContainer.find(".swiper-slide").length == 1) {
-        $swiperContainer.addClass("gt_disabled");
-      }
-
-      var $swiperContainerFeature = $element.find(".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList");
-      if (!$swiperContainerFeature || !$swiperContainerFeature.length) {
-        return;
-      }
-
-      if ($swiperContainerFeature[0].swiper) {
-        $swiperContainerFeature[0].swiper.destroy();
-      }
-
-      if ($swiperContainerFeature.find(".swiper-slide").length == 1) {
-        $swiperContainerFeature.find(".swiper-wrapper").addClass("gt_disabled");
-        $swiperContainerFeature.find(".gt_control-pagination").addClass("gt_disabled");
-      }
-
-      var gtProductImageParams = {
-        $element: $element,
-        settings: {
-          classSwiperItems: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-carousel--item",
-          classSwiperItemsImage: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-carousel--item img",
-          classSwiperContainer: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList",
-          initShowFeatureImage: initShowFeatureImage,
-          swiperSetting: getDataSwiperSettings(),
-          //featureimageswiper
-          featureSwiperSetting: getDataSwiperSettingsFeature(),
-          classFeatureSwiperContainer: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList",
-          classFeatureSwiperItemsImage: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-image--feature",
-        }
-      }
-
-      window.SOLID.library.gtProductImagesV2(gtProductImageParams);
-
-      mySwiper = $swiperContainer[0].swiper;
-      mySwiperFeature = $swiperContainerFeature[0].swiper;
-    }
-
-    function listen() {
-      let observer = new ResizeObserver(() => {
-        if (mySwiper) {
-          mySwiper.update()
-        }
-      })
-      observer.observe($element[0]);
-    }
-
-    function getDataSwiperSettings() {
-      let direction = 'horizontal';
-      if (imageListPositionCurrent === "left" || imageListPositionCurrent === "right") {
-        direction = "vertical";
-      }
-      return {
-        mousewheel: false,
-        slidesPerView: 3,
-        spaceBetween: 16,
-        freeMode: true,
-        watchSlidesVisibility: true,
-        watchSlidesProgress: true,
-        navigation: {
-          nextEl: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_control-next",
-          prevEl: ".gt_product--swiper-zTvkNgEHQm2DHkz_productImageList .gt_control-prev",
-        },
-        breakpoints: {
-          0: {
-            slidesPerView: slidesPerView_xs,
-            spaceBetween: spaceBetween_xs,
-            direction: direction,
-            mousewheel: false,
-            pagination: {
-              dynamicBullets: dynamicDotsOnOff,
-              dynamicMainBullets: 1,
-            },
-          },
-          577: {
-            slidesPerView: slidesPerView_sm,
-            spaceBetween: spaceBetween_sm,
-            direction: direction,
-            mousewheel: false,
-            pagination: {
-              dynamicBullets: dynamicDotsOnOff,
-              dynamicMainBullets: 1,
-            },
-          },
-          993: {
-            slidesPerView: slidesPerView_md,
-            spaceBetween: spaceBetween_md,
-            direction: direction,
-            mousewhel: true,
-          },
-          1201: {
-            slidesPerView: slidesPerView_lg,
-            spaceBetween: spaceBetween_lg,
-            direction: direction,
-            mousewhel: true,
-          }
-        },
-      }
-    }
-
-    function getDataSwiperSettingsFeature() {
-      return {
-        slidesPerView: 1,
-        spaceBetween: 16,
-        navigation: {
-          nextEl: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-img-nav--right",
-          prevEl: ".gt_product-feature--swiper-zTvkNgEHQm2DHkz_productImageList .gt_product-img-nav--left",
-        },
-        pagination: {
-          el: ".gt_control-pagination",
-          type: 'bullets',
-          clickable: true,
-          renderBullet: function(index, classname) {
-            return `<div class="gt_control-pagination-item ` + classname + ` ">
-            <span data-optimize-type="icon"  data-attribute="iconDots,"  data-section-id="zTvkNgEHQm2DHkz_productImageList"  class="gt_icon"><svg height="100%" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 22C13.05 22 13.5 21.55 13.5 21V3C13.5 2.45 13.05 2 12.5 2C11.95 2 11.5 2.45 11.5 3V21C11.5 21.55 11.95 22 12.5 22ZM8.5 18C9.05 18 9.5 17.55 9.5 17V7C9.5 6.45 9.05 6 8.5 6C7.95 6 7.5 6.45 7.5 7V17C7.5 17.55 7.95 18 8.5 18ZM5.5 13C5.5 13.55 5.05 14 4.5 14C3.95 14 3.5 13.55 3.5 13V11C3.5 10.45 3.95 10 4.5 10C5.05 10 5.5 10.45 5.5 11V13ZM16.5 18C17.05 18 17.5 17.55 17.5 17V7C17.5 6.45 17.05 6 16.5 6C15.95 6 15.5 6.45 15.5 7V17C15.5 17.55 15.95 18 16.5 18ZM19.5 13V11C19.5 10.45 19.95 10 20.5 10C21.05 10 21.5 10.45 21.5 11V13C21.5 13.55 21.05 14 20.5 14C19.95 14 19.5 13.55 19.5 13Z" fill="currentColor"/> </svg></span>
-          </div>`;
-          }
-        },
-        breakpoints: {
-          0: {
-            pagination: {
-              dynamicBullets: dynamicDotsOnOff,
-              dynamicMainBullets: 1,
-            },
-          },
-          577: {
-            pagination: {
-              dynamicBullets: dynamicDotsOnOff,
-              dynamicMainBullets: 1,
-            },
-          }
-        },
-      }
-    }
-
-    function changeSliderActive(value) {
-      if (value && value.sliderIndex !== NaN) {
-        if (loop) {
-          mySwiper.slideToLoop(value.sliderIndex, 500, true);
-        } else {
-          mySwiper.slideTo(value.sliderIndex, 500, true);
-        }
-      }
-    }
-
-    function isImgSliderBottom() {
-      const $productImage = $element.find(".gt_product-image-list--bottom");
-      if ($productImage && $productImage.length) {
-        return true;
-      }
-      return false;
-    }
-
-    function checkImageListActive() {
-      checkWindowWidth = $(window).width();
-      if (checkWindowWidth <= 576) {
-        if (imageListActive) {
-          slidesPerView_xs = "5";
-          spaceBetween_xs = "10";
-        } else if (!imageListActive) {
-          slidesPerView_xs = 1;
-          spaceBetween_xs = 0;
-        }
-      } else if (checkWindowWidth <= 992) {
-        if (imageListActive) {
-          slidesPerView_sm = "5";
-          spaceBetween_sm = "16"
-        } else if (!imageListActive) {
-          slidesPerView_sm = 1;
-          spaceBetween_sm = 0;
-        }
-      }
-    }
-
-    function calculatorImageSlideHeight() {
-      var delay = setTimeout(function() {
-        checkWindowWidth = $(window).width();
-        if (!isImgSliderBottom()) {
-          var imgBoxHeight = $imgBox[0].offsetHeight;
-          $imgSlide.css("height", imgBoxHeight);
-          mySwiper.update();
-        } else {
-          $imgSlide.css("height", "");
-        }
-      }, 500);
-    }
-
-    function optimizeSizeIconDots(value) {
-      mySwiper.pagination.render();
-      var $paginationItem = $element.find(".gt_control-pagination-item");
-      var $paginationItemIcon = $element.find(".gt_control-pagination-item .gt_icon");
-      checkWindowWidth = $(window).width();
-      if (checkWindowWidth <= 576) {
-        sizeIconDots_xs = value;
-      } else if (checkWindowWidth <= 992) {
-        sizeIconDots_sm = value;
-      }
-      $paginationItemIcon.css("cssText", "width: " + value + " !important; height: " + value + "!important;");
-      $paginationItem.css("cssText", "width: calc(8px + " + value + ") !important; height: calc(8px + " + value + ") !important;");
-      mySwiper.pagination.update();
-    }
-
-    function optimizeSlidePerView(value) {
-      checkWindowWidth = $(window).width();
-      if (checkWindowWidth <= 576) {
-        slidesPerView_xs = value;
-      } else if (checkWindowWidth <= 992) {
-        slidesPerView_sm = value;
-      } else if (checkWindowWidth <= 1200) {
-        slidesPerView_md = value;
-      } else {
-        slidesPerView_lg = value;
-      }
-      initSlider();
-    }
-
-    function optimizeWidthSlider(value) {
-      checkWindowWidth = $(window).width();
-      if (checkWindowWidth <= 576) {
-        widthSlider_xs = value;
-      } else if (checkWindowWidth <= 992) {
-        widthSlider_sm = value;
-      } else if (checkWindowWidth <= 1200) {
-        widthSlider_md = value;
-      } else {
-        widthSlider_lg = widthSlider = value;
-      }
-      $element.css("cssText", "width: " + value + " !important;");
-      mySwiper.update();
-      calculatorImageSlideHeight();
-    }
-
-    function optimizeWidthActive(value) {
-      widthActive = value;
-      if (!value) {
-        $element.css("cssText", "width: null");
-      } else {
-        checkWindowWidth = $(window).width();
-        widthSliderCurrent = 0;
-        if (checkWindowWidth <= 576) {
-          widthSliderCurrent = widthSlider_xs;
-        } else if (checkWindowWidth <= 992) {
-          widthSliderCurrent = widthSlider_sm;
-        } else if (checkWindowWidth <= 1200) {
-          widthSliderCurrent = widthSlider_md;
-        } else {
-          widthSliderCurrent = widthSlider;
-        }
-        $element.css("cssText", "width: " + widthSliderCurrent + " !important;");
-        initSlider();
-        mySwiper.update();
-      }
-    }
-
-    function checkImageListPosition() {
-      checkWindowWidth = $(window).width();
-      if (checkWindowWidth <= 576) {
-        imageListPositionCurrent = imageListPosition_xs;
-        spacingSmall = "10px";
-      } else if (checkWindowWidth <= 992) {
-        imageListPositionCurrent = imageListPosition_sm;
-        spacingSmall = "16px";
-      } else if (checkWindowWidth <= 1200) {
-        imageListPositionCurrent = imageListPosition_md;
-        spacingSmall = "16px";
-      } else {
-        imageListPositionCurrent = imageListPosition;
-        spacingSmall = "16px";
-      }
-      $element.find("#gt_product-image-list-id").attr("class", "gt_product-image-list--" + imageListPositionCurrent);
-      //showimage
-      var $swiperWrapperHide = $element.find(".gt-carousel--hide-default");
-      if ($swiperWrapperHide && $swiperWrapperHide.length) {
-        $swiperWrapperHide.removeClass("gt-carousel--hide-default");
-      }
-      if (imageListPositionCurrent !== "bottom") {
-        var $productImageListWrapper = $element.find(".gt_product-carousel-box");
-        var $productImageBox = $element.find(".gt_product-image--inner");
-        $productImageListWrapper.css("height", $productImageBox.outerHeight());
-      }
-      //css
-      if (imageListPositionCurrent === "left" || imageListPositionCurrent === "right") {
-        $controlNext.css({
-          "height": "auto",
-          "width": "100%"
-        });
-        $controlPrev.css({
-          "height": "auto",
-          "width": "100%"
-        });
-      }
-      if (imageListPositionCurrent === "left") {
-        $productImgInner.css("flex-direction", "row-reverse");
-        $imgSlide.css({
-          "padding-left": "0",
-          "padding-right": spacingSmall
-        });
-      } else if (imageListPositionCurrent === "right") {
-        $productImgInner.css("flex-direction", "row");
-        $imgSlide.css({
-          "padding-right": "0",
-          "padding-left": spacingSmall
-        });
-      } else {
-        $productImgInner.css("flex-direction", "column");
-        $imgSlide.css("padding", "");
-        $controlNext.css({
-          "height": "100%",
-          "width": "auto"
-        });
-        $controlPrev.css({
-          "height": "100%",
-          "width": "auto"
-        });
-      }
-      initSlider();
-      mySwiper.update();
-    }
-
-    function optimizeImageListPosition(value) {
-      checkWindowWidth = $(window).width();
-      if (checkWindowWidth <= 576) {
-        imageListPosition_xs = imageListPositionCurrent = value;
-      } else if (checkWindowWidth <= 992) {
-        imageListPosition_sm = imageListPositionCurrent = value;
-      } else if (checkWindowWidth <= 1200) {
-        imageListPosition_md = imageListPositionCurrent = value;
-      } else {
-        imageListPosition_lg = imageListPositionCurrent = imageListPosition = value;
-      }
-      if (imageListPositionCurrent === "left" || imageListPositionCurrent === "right") {
-        $controlNext.css({
-          "height": "auto",
-          "width": "100%"
-        });
-        $controlPrev.css({
-          "height": "auto",
-          "width": "100%"
-        });
-      }
-      if (imageListPositionCurrent === "left") {
-        $productImgInner.css("flex-direction", "row-reverse");
-        $imgSlide.css({
-          "padding-left": "0",
-          "padding-right": spacingSmall
-        });
-      } else if (imageListPositionCurrent === "right") {
-        $productImgInner.css("flex-direction", "row");
-        $imgSlide.css({
-          "padding-right": "0",
-          "padding-left": spacingSmall
-        });
-      } else {
-        $productImgInner.css("flex-direction", "column");
-        $imgSlide.css("padding", "");
-        $controlNext.css({
-          "height": "100%",
-          "width": "auto"
-        });
-        $controlPrev.css({
-          "height": "100%",
-          "width": "auto"
-        });
-      }
-      $element.find("#gt_product-image-list-id").attr("class", "gt_product-image-list--" + value);
-      initSlider();
-      mySwiper.update();
-      calculatorImageSlideHeight();
-    }
-
-    function optimizeImageRadio(value) {
-      checkWindowWidth = $(window).width();
-      if (value === "square") {
-        $imgBoxInner.css("padding-top", "calc(100%)");
-      } else if (value === "landscape") {
-        $imgBoxInner.css("padding-top", "calc(100% * 3 / 4)");
-      } else if (value === "portrait") {
-        $imgBoxInner.css("padding-top", "calc(100% * 4 / 3)");
-      }
-      if (isImgSliderBottom()) {
-        if (value === "square") {
-          $imgSlideItem.css("padding-top", "calc(100%)");
-        } else if (value === "landscape") {
-          $imgSlideItem.css("padding-top", "calc(100% * 3 / 4)");
-        } else if (value === "portrait") {
-          $imgSlideItem.css("padding-top", "calc(100% * 4 / 3)");
-        }
-      }
-      calculatorImageSlideHeight();
-    }
-
-    function optimizeImageRadioActive(value) {
-      if (!value) {
-        $imgBoxInner.css("padding-top", "");
-        $imgSlideItem.css("padding-top", "");
-      } else {
-        optimizeImageRadio(value);
-        checkWindowWidth = $(window).width();
-        if (value === "square") {
-          $imgBoxInner.css("padding-top", "calc(100%)");
-        } else if (value === "landscape") {
-          $imgBoxInner.css("padding-top", "calc(100% * 3 / 4)");
-        } else if (value === "portrait") {
-          $imgBoxInner.css("padding-top", "calc(100% * 4 / 3)");
-        }
-        if (isImgSliderBottom() || checkWindowWidth < 992) {
-          if (value === "square") {
-            $imgSlideItem.css("padding-top", "calc(100%)");
-          } else if (value === "landscape") {
-            $imgSlideItem.css("padding-top", "calc(100% * 3 / 4)");
-          } else if (value === "portrait") {
-            $imgSlideItem.css("padding-top", "calc(100% * 4 / 3)");
-          }
-        }
-      }
-      calculatorImageSlideHeight();
-    }
-
-    function optimizeDynamicDotsOnOff(value) {
-      dynamicDotsOnOff = value;
-      initSlider();
-      var paginationEl = mySwiperFeature.pagination.el;
-      if (value) {
-        paginationEl.style.cssText = paginationEl.style.cssText + "margin: 0px auto; transform: translateX(0px); justify-content: unset;";
-      } else {
-        paginationEl.style.cssText = paginationEl.style.cssText + "justify-content: center;";
-        paginationEl.classList.remove("swiper-pagination-bullets-dynamic");
-      }
-      mySwiperFeature.pagination.update();
-      mySwiperFeature.update();
-    }
-    /* init block script */
-    listen();
-    if (scaleZoomImageActive) {
-      $element.find(".gt_product-image--feature").gfProductZoomImage({
-        classHoverItem: ".gt_product-img-box",
-        scale: "1.5",
-        classSection: ".gt_atom-zTvkNgEHQm2DHkz_productImageList",
-      });
-    }
-    checkImageListPosition();
-    checkImageListActive();
-    initSlider();
-    calculatorImageSlideHeight();
-
-    var delayResize = 0;
-    $(window).off("resize.checkSwitchScreenszTvkNgEHQm2DHkz_productImageList").on("resize.checkSwitchScreenszTvkNgEHQm2DHkz_productImageList", function() {
-      clearTimeout(delayResize);
-      delayResize = setTimeout(function() {
-        const windowWidthCurrent = $(window).width();
-        if (windowWidthCurrent !== checkWindowWidth) {
-          checkWindowWidth = windowWidthCurrent;
-          widthSliderCurrent = 0;
-          sizeIconDotsCurrent = 0;
-          if (checkWindowWidth <= 576) {
-            widthSliderCurrent = widthSlider_xs;
-            sizeIconDotsCurrent = sizeIconDots_xs;
-          } else if (checkWindowWidth <= 992) {
-            widthSliderCurrent = widthSlider_sm;
-            sizeIconDotsCurrent = sizeIconDots_sm;
-          } else if (checkWindowWidth <= 1200) {
-            widthSliderCurrent = widthSlider_md;
-          } else {
-            widthSliderCurrent = widthSlider;
-          }
-          if (widthActive) {
-            $element.css("cssText", "width: " + widthSliderCurrent + " !important;");
-            mySwiper.update();
-          }
-          var $paginationItem = $element.find(".gt_control-pagination-item");
-          var $paginationItemIcon = $element.find(".gt_control-pagination-item .gt_icon");
-          $paginationItemIcon.css("cssText", "width: " + sizeIconDotsCurrent + " !important; height: " + sizeIconDotsCurrent + "!important;");
-          $paginationItem.css("cssText", "width: calc(8px + " + sizeIconDotsCurrent + ") !important; height: calc(8px + " + sizeIconDotsCurrent + ") !important;");
-
-          checkImageListPosition();
-          calculatorImageSlideHeight();
-          checkImageListActive();
-          initSlider();
-        }
-      }, 100)
-    });
-
-    if ($element.find(".swiper-slide").length == 1) {
-      $element.find('.swiper-wrapper').addClass("gt_disabled");
-      $element.find('.gt_control-pagination').addClass("gt_disabled");
-    }
-    /* store subscribe block script */
-    store.subscribe("optimize-zTvkNgEHQm2DHkz_productImageList-sizeIconDots", optimizeSizeIconDots);
-    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-slidesPerView", optimizeSlidePerView);
-    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthSlider", optimizeWidthSlider);
-    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthActive", optimizeWidthActive);
-    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadio", optimizeImageRadio);
-    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadioActive", optimizeImageRadioActive);
-    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-dynamicDotsOnOff", optimizeDynamicDotsOnOff);
-    store.subscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageListPosition", optimizeImageListPosition);
-    store.subscribe("trigger-slider-zTvkNgEHQm2DHkz_productImageList", changeSliderActive);
-
-    function destroy() {
-      store.unsubscribe("optimize-zTvkNgEHQm2DHkz_productImageList-sizeIconDots", optimizeSizeIconDots);
-      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-slidesPerView", optimizeSlidePerView);
-      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthSlider", optimizeWidthSlider);
-      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-widthActive", optimizeWidthActive);
-      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadio", optimizeImageRadio);
-      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageRadioActive", optimizeImageRadioActive);
-      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-dynamicDotsOnOff", optimizeDynamicDotsOnOff);
-      store.unsubscribe("optimal-zTvkNgEHQm2DHkz_productImageList-imageListPosition", optimizeImageListPosition);
-      store.unsubscribe("trigger-slider-zTvkNgEHQm2DHkz_productImageList", changeSliderActive);
-    }
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productImageList()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productImageList" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_boxInfo() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxInfo";
-  var id = "zTvkNgEHQm2DHkz_boxInfo";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settings = {
-          elementId: "zTvkNgEHQm2DHkz_boxInfo",
-          $doms: $(elementClassName),
-          animationType: "block",
-          mode: "production",
-        }
-        if (scrollIntoViewActive) {
-          settings.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView"
-          }
-        }
-        if (animationActive) {
-          settings.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation"
-          }
-        }
-        if (animationHoverActive) {
-          settings.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          }
-        }
-        window.SOLID.library.animation(settings)
-      }
-    }
-    /* init block script */
-    addInteraction();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_boxInfo()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxInfo" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productTitle() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productTitle";
-  var id = "zTvkNgEHQm2DHkz_productTitle";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settingsBlock = {
-          elementId: "zTvkNgEHQm2DHkz_productTitle",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "block"
-        };
-        var settingsText = {
-          elementId: "zTvkNgEHQm2DHkz_productTitle",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "text"
-        };
-        if (scrollIntoViewActive) {
-          settingsText.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView",
-          };
-        }
-        if (animationActive) {
-          settingsBlock.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation",
-          };
-        }
-        if (animationHoverActive) {
-          settingsBlock.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          };
-        }
-        window.SOLID.library.animation(settingsText);
-        window.SOLID.library.animation(settingsBlock);
-      }
-    }
-    /* init block script */
-    addInteraction();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productTitle()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productTitle" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_boxPrice() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxPrice";
-  var id = "zTvkNgEHQm2DHkz_boxPrice";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settings = {
-          elementId: "zTvkNgEHQm2DHkz_boxPrice",
-          $doms: $(elementClassName),
-          animationType: "block",
-          mode: "production",
-        }
-        if (scrollIntoViewActive) {
-          settings.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView"
-          }
-        }
-        if (animationActive) {
-          settings.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation"
-          }
-        }
-        if (animationHoverActive) {
-          settings.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          }
-        }
-        window.SOLID.library.animation(settings)
-      }
-    }
-    /* init block script */
-    addInteraction();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_boxPrice()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxPrice" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_boxDeal() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_boxDeal";
-  var id = "zTvkNgEHQm2DHkz_boxDeal";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settings = {
-          elementId: "zTvkNgEHQm2DHkz_boxDeal",
-          $doms: $(elementClassName),
-          animationType: "block",
-          mode: "production",
-        }
-        if (scrollIntoViewActive) {
-          settings.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView"
-          }
-        }
-        if (animationActive) {
-          settings.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation"
-          }
-        }
-        if (animationHoverActive) {
-          settings.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          }
-        }
-        window.SOLID.library.animation(settings)
-      }
-    }
-    /* init block script */
-    addInteraction();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_boxDeal()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_boxDeal" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_icon() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_icon";
-  var id = "zTvkNgEHQm2DHkz_icon";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settings = {
-          elementId: "zTvkNgEHQm2DHkz_icon",
-          $doms: $(elementClassName),
-          animationType: "block",
-          mode: "production",
-        }
-        if (scrollIntoViewActive) {
-          settings.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView"
-          }
-        }
-        if (animationActive) {
-          settings.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation"
-          }
-        }
-        if (animationHoverActive) {
-          settings.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          }
-        }
-        window.SOLID.library.animation(settings)
-      }
-    }
-    /* init block script */
-    addInteraction();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_icon()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_icon" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_textLink() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_textLink";
-  var id = "zTvkNgEHQm2DHkz_textLink";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settingsBlock = {
-          elementId: "zTvkNgEHQm2DHkz_textLink",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "block"
-        }
-        var settingsText = {
-          elementId: "zTvkNgEHQm2DHkz_textLink",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "text"
-        }
-        if (scrollIntoViewActive) {
-          settingsText.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView",
-          }
-        }
-        if (animationActive) {
-          settingsBlock.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation",
-          }
-        }
-        if (animationHoverActive) {
-          settingsBlock.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          }
-        }
-        window.SOLID.library.animation(settingsText);
-        window.SOLID.library.animation(settingsBlock);
-      }
-    }
-    /* init block script */
-    addInteraction();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_textLink()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_textLink" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productPrice() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productPrice";
-  var id = "zTvkNgEHQm2DHkz_productPrice";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const syncQuantityandPrice = "true" == "true";
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settingsBlock = {
-          elementId: "zTvkNgEHQm2DHkz_productPrice",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "block"
-        };
-        var settingsText = {
-          elementId: "zTvkNgEHQm2DHkz_productPrice",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "text"
-        };
-        if (scrollIntoViewActive) {
-          settingsText.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView",
-          };
-        }
-        if (animationActive) {
-          settingsBlock.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation",
-          };
-        }
-        if (animationHoverActive) {
-          settingsBlock.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          };
-        }
-        window.SOLID.library.animation(settingsText);
-        window.SOLID.library.animation(settingsBlock);
-      }
-    }
-    /* init block script */
-    addInteraction();
-    $element.gtProductPrice({
-      classCurrentPrice: ".gt_product-price--number",
-      syncQuantityPrice: syncQuantityandPrice,
-    });
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productPrice()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productPrice" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productComparePrice() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productComparePrice";
-  var id = "zTvkNgEHQm2DHkz_productComparePrice";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const syncQuantityandPrice = "true" == "true";
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settingsBlock = {
-          elementId: "zTvkNgEHQm2DHkz_productComparePrice",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "block"
-        };
-        var settingsText = {
-          elementId: "zTvkNgEHQm2DHkz_productComparePrice",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "text"
-        };
-        if (scrollIntoViewActive) {
-          settingsText.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView",
-          };
-        }
-        if (animationActive) {
-          settingsBlock.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation",
-          };
-        }
-        if (animationHoverActive) {
-          settingsBlock.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          };
-        }
-        window.SOLID.library.animation(settingsText);
-        window.SOLID.library.animation(settingsBlock);
-      }
-    }
-    /* init block script */
-    addInteraction();
-
-    $element.gtProductPrice({
-      classComparePrice: ".gt_product-price--compare",
-      classCurrentPrice: ".gt_product-price--number",
-      syncQuantityPrice: syncQuantityandPrice,
-    });
-    /* store subscribe block script */
-    function destroy() {}
-    /* events block script */
-    /* destroy block script */
-    store.subscribe("component-" + id + "-destroy", function() {
-      destroy();
-      store.unsubscribe("component-" + id + "-destroy");
-    });
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productComparePrice()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productComparePrice" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productTagSale() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productTagSale";
-  var id = "zTvkNgEHQm2DHkz_productTagSale";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target) {
-    var $element = $target;
-    /* data block script */
-    const roundPercent = Number("0");
-    const removeZeros = "true" === "true";
-    /* store get state block script */
-    /* methods block script */
-    /* init block script */
-    $element.gtProductSaved({
-      classTextPercent: ".gt_product-tag-sale--value--percent",
-      classTextNumber: ".gt_product-tag-sale--value--number",
-      dataFormat: "Saved [!Profit!]",
-      dataFormatKey: "[!Profit!]",
-      customCurrencyFormating: "shortPrefix",
-      roundPercent: roundPercent,
-      roundNoZeroes: removeZeros
-    });
-    /* store subscribe block script */
-    function destroy() {}
-    /* events block script */
-    /* destroy block script */
-    store.subscribe("component-" + id + "-destroy", function() {
-      destroy();
-      store.unsubscribe("component-" + id + "-destroy");
-    });
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productTagSale()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productTagSale" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productTagSaleNumber() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productTagSaleNumber";
-  var id = "zTvkNgEHQm2DHkz_productTagSaleNumber";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target) {
-    var $element = $target;
-    /* data block script */
-    const roundPercent = Number("0");
-    const removeZeros = "true" === "true";
-    /* store get state block script */
-    /* methods block script */
-    /* init block script */
-    $element.gtProductSaved({
-      classTextPercent: ".gt_product-tag-sale--value--percent",
-      classTextNumber: ".gt_product-tag-sale--value--number",
-      dataFormat: "[!Profit!]",
-      dataFormatKey: "[!Profit!]",
-      customCurrencyFormating: "shortPrefix",
-      roundPercent: roundPercent,
-      roundNoZeroes: removeZeros
-    });
-    /* store subscribe block script */
-    function destroy() {}
-    /* events block script */
-    /* destroy block script */
-    store.subscribe("component-" + id + "-destroy", function() {
-      destroy();
-      store.unsubscribe("component-" + id + "-destroy");
-    });
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productTagSaleNumber()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productTagSaleNumber" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productVariant() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productVariant";
-  var id = "zTvkNgEHQm2DHkz_productVariant";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    var $variantChecked = $element.find(".gt_product-variant--checked");
-    var $variantOptions = $element.find(".gt_product-variant-options");
-    var mode = "production";
-    var animationActive = 'false';
-    var timeoutTooltip = null;
-    /* store get state block script */
-    /* methods block script */
-    function animation() {
-      if (animationActive === "true") {
-        var interactionScrollIntoView =
-          '""';
-        window.SOLID.library.animation({
-          elementId: id,
-          $doms: $elements,
-          interactionScrollIntoView: {
-            value: JSON.parse(interactionScrollIntoView),
-            previewAttr: "interactionScrollIntoView",
-          },
-          animationType: "block",
-          mode: mode,
-        });
-      }
-    }
-
-    function initSwatches() {
-      window.SOLID.library.gtProductSwatchesV2({
-        $element: $element,
-        settings: {
-          classCurrentValue: ".gt_product-variant-option--selected span",
-          classItem: ".gt_variant--select-item",
-          classInputIdHidden: ".gt_variant--input",
-          classBtnSelect: ".gt_product-variant--btn-select",
-        }
-      });
-    }
-
-    function openSelectDropdown() {
-      $variantChecked.removeClass("gt_active");
-      var $options = $(this).siblings(".gt_product-variant-options");
-      if ($options.hasClass("gt_active")) {
-        $options.css("top", "");
-        $options.removeClass("gt_active");
-        $(this).removeClass("gt_active");
-        clearEventShowTooltip();
-        $(document).off("mousedown.outsideClickVariantSelect");
-      } else {
-        $variantOptions.removeClass("gt_active");
-        $options.addClass("gt_active");
-        $(this).addClass("gt_active");
-        var optionsOuterHeight = $options.outerHeight();
-        var selectInputHeight = $variantChecked.outerHeight();
-        var positionOptions = $options.offset().top - $(document).scrollTop() + optionsOuterHeight;
-        var windowHeight = $(window).outerHeight();
-        if (positionOptions > windowHeight) {
-          const currentTopOptions = $options.css("top");
-          const newTop = "calc( " + currentTopOptions + " - " + optionsOuterHeight + "px" + " - " + (Number(selectInputHeight) + 10) + "px" + " )";
-          $options.css("top", newTop);
-        }
-        clearTimeout(timeoutTooltip);
-        timeoutTooltip = setTimeout(() => {
-          eventShowTooltipSelectType();
-        }, 300)
-        //addeventclickoutsidetoclose
-        const $currentTargetOptions = $(this);
-        $(document).off("mousedown.outsideClickVariantSelect").on("mousedown.outsideClickVariantSelect", function(event) {
-          if ($options && $options.length && $currentTargetOptions && $currentTargetOptions.length) {
-            const $optionsPure = $options[0];
-            if ($optionsPure && !$optionsPure.contains(event.target) && !$currentTargetOptions[0].contains(event.target)) {
-              $options.css("top", "");
-              $options.removeClass("gt_active");
-              $currentTargetOptions.removeClass("gt_active");
-              clearEventShowTooltip();
-              $(document).off("mousedown.outsideClickVariantSelect");
-            }
-          }
-        });
-      }
-    }
-
-    function onClickSelectDropDown() {
-      $variantChecked.removeClass("gt_active");
-      $variantOptions.removeClass("gt_active");
-      var value = $(this).attr("data-value");
-      var $variantCheckedCurrent = $(this).closest(
-        ".gt_product-variant--select-box"
-      );
-      var $valueVariantChecked = $variantCheckedCurrent.find(
-        ".gt_product-variant--checked .gt_product-variant-option--selected span"
-      );
-      var $contentOptionSelect = $(this).html();
-      $valueVariantChecked.attr("data-value", value);
-      $valueVariantChecked.html($contentOptionSelect);
-      //closetooltip
-      const $tooltip = $element.find(".gt_product-variant-tooltip");
-      $tooltip.css("display", "none");
-      clearEventShowTooltip();
-    }
-
-    function hideAtomWhenNoVariant() {
-      $element.css("display", "");
-      var isHide = true;
-      var $variantItems = $element.find(".gt_product-variant--item")
-      for (var i = 0; i < $variantItems.length; i++) {
-        var $item = $($variantItems[i]);
-        var display = $item.css("display");
-        if (display !== "none") {
-          isHide = false;
-          break;
-        }
-      }
-      if (isHide) {
-        $element.css("display", "none");
-      }
-    }
-
-    function eventShowTooltipSelectType() {
-      const $selectItems = $element.find(".gt_variant--select-item");
-      for (var i = 0; i < $selectItems.length; i++) {
-        const $selectItem = $($selectItems[i]);
-        const $selectOptions = $selectItem.find(".gt_product-variant-option");
-        const $tooltip = $selectItem.find(".gt_product-variant-tooltip");
-        $selectOptions.off("mouseenter").on("mouseenter", function() {
-          //checkoverflow
-          const $contentValue = $(this).find(".gt_product-variant-option--txt");
-          const cachedDisplayContentValue = $contentValue.css("display");
-          $contentValue.css({
-            display: "inline",
-            overflow: "unset",
-            whiteSpace: "nowrap"
-          });
-          const realWidth = $contentValue.outerWidth();
-          $contentValue.css({
-            display: cachedDisplayContentValue,
-            overflow: "",
-            whiteSpace: ""
-          });
-          //
-          const selectOptionTop = this.getBoundingClientRect().top;
-          const selectItemTop = $selectItem[0].getBoundingClientRect().top;
-          const selectOptionHeight = $(this).outerHeight();
-          const selectOptionWidth = $(this).outerWidth();
-          const contentSelect = $contentValue.html();
-          if (realWidth > selectOptionWidth) {
-            $tooltip.find(".gt_product-variant-tooltip-name").html(contentSelect);
-            $tooltip.css({
-              display: "block",
-              top: selectOptionTop - selectItemTop - selectOptionHeight,
-              zIndex: 10
-            });
-            $tooltip.find(".gt_product-variant-tooltip-arrow").css({
-              left: selectOptionWidth / 2 + "px",
-            })
-          }
-        });
-        $selectOptions.off("mouseleave").on("mouseleave", function() {
-          $tooltip.css({
-            display: "none"
-          })
-        });
-      }
-    }
-
-    function clearEventShowTooltip() {
-      const $selectitems = $element.find(".gt_variant--select-item");
-      for (var i = 0; i < $selectitems.length; i++) {
-        const $selectitem = $($selectitems[i]);
-        const $selectoptions = $selectitem.find(".gt_product-variant-option");
-        $selectoptions.off("mouseenter");
-        $selectoptions.off("mouseleave");
-      }
-    }
-    /* init block script */
-    hideAtomWhenNoVariant();
-    initSwatches();
-    animation();
-    /* store subscribe block script */
-    /* events block script */
-    var $elements_1 = $element.find(".gt_product-variant--checked");
-    $elements_1.off("click.openSelect").on("click.openSelect", openSelectDropdown);
-    var $elements_2 = $element.find(".gt_product-variant-option");
-    $elements_2.off("click.selectItem").on("click.selectItem", onClickSelectDropDown);
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productVariant()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productVariant" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productQuantity() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productQuantity";
-  var id = "zTvkNgEHQm2DHkz_productQuantity";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    var style = "horizontal";
-    var mode = "production";
-    var interactionScrollIntoViewActive = "false";
-    /* store get state block script */
-    /* methods block script */
-    function animation() {
-      if (interactionScrollIntoViewActive === "true") {
-        var interactionScrollIntoView =
-          '""';
-        var $container = $element.find(".gt_product-quantity");
-        window.SOLID.library.animation({
-          elementId: id,
-          $doms: $container,
-          interactionScrollIntoView: {
-            value: JSON.parse(interactionScrollIntoView),
-            previewAttr: "interactionScrollIntoView",
-          },
-          animationType: "block",
-          mode: mode,
-        });
-      }
-    }
-
-    function initLibrary() {
-      var params = {
-        $element: $element,
-        settings: {
-          classInput: "input[name='quantity']",
-          classPlus: ".gt_quantity_plus",
-          classMinus: ".gt_quantity_minus",
-          mode: mode,
-        }
-      };
-      if (style === "horizontal") {
-        params = {
-          $element: $element,
-          settings: {
-            classInput: "input[name='quantity']",
-            classPlus: ".gt_product-quantity--plus",
-            classMinus: ".gt_product-quantity--minus",
-            mode: mode,
-          }
-        };
-      }
-      window.SOLID.library.gtProductQuantityV2(params);
-    }
-
-    function validateInput() {
-      var inputQuantity = $element.find("input[name='quantity']");
-      inputQuantity.keyup(function() {
-        var value = parseInt(this.value);
-        if (isNaN(value)) {
-          value = 1;
-        }
-        inputQuantity.attr("value", value).val(value);
-      })
-    }
-    /* init block script */
-    initLibrary();
-    animation();
-    validateInput();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productQuantity()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productQuantity" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productButtonBuyItNow() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productButtonBuyItNow";
-  var id = "zTvkNgEHQm2DHkz_productButtonBuyItNow";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target, indexEl) {
-    var $element = $target;
-    /* data block script */
-    var scrollIntoViewActive = 'false' == 'true';
-    var animationActive = 'false' == 'true';
-    var animationHoverActive = 'false' == 'true';
-    var scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    var animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    var animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    var mode = 'production';
-    var previewSoldOut = 'false';
-    var actions = '[{"control":{"attribute":"pickProductButton","id":"pickProductButton","isButtonAddToCard":true,"type":"pickproduct"},"event":"click","id":1},{"control":{"attribute":"pickLinkButton","id":"pickLinkButton","newTab":false,"reference":"html","title":"Pick Link","type":"picklink","value":"/cart"},"event":"click","id":2}]';
-    
-    /* store get state block script */
-    /* methods block script */
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settings = {
-          elementId: "zTvkNgEHQm2DHkz_productButtonBuyItNow",
-          $doms: $(elementClassName),
-          animationType: "block",
-          mode: "production",
-        };
-        if (scrollIntoViewActive) {
-          settings.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView",
-          };
-        }
-        if (animationActive) {
-          settings.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation",
-          };
-        }
-        if (animationHoverActive) {
-          settings.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover",
-          };
-        }
-        window.SOLID.library.animation(settings);
-      }
-    }
-
-    function eventChangeTextInIframe() {
-      
-    }
-
-    function eventListenSoldOut() {
-      if (mode !== "production") {
-        if (previewSoldOut === "false") {
-          window.SOLID.library.gtBuyProductListenSoldOut({
-            $element: $($element)[0],
-            options: {
-              isButtonAddToCard: true,
-              textAddToCard: "BUY IT NOW",
-              textSoldOut: "Sold out",
-            },
-            mode: "dev"
-          });
-        }
-      } else {
-        window.SOLID.library.gtBuyProductListenSoldOut({
-          $element: $($element)[0],
-          options: {
-            isButtonAddToCard: true,
-            textAddToCard: "BUY IT NOW",
-            textSoldOut: "Sold out",
-          },
-        });
-      }
-    }
-
-    function addActionEvent() {
-      // function customEvent(actions,id,key)
-      if (mode === "production") {
-        $($element).customEvent(
-          JSON.parse(actions),
-          'zTvkNgEHQm2DHkz_productButtonBuyItNow' + '_' + indexEl
-        );
-      }
-      /*Listenifisbuttonaddtocard*/
-      store.subscribe(
-        "loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow" + "_" + indexEl,
-        function(isDisplay) {
-          const $loadingEl = $($element).find(
-            ".atom-button-loading-circle-loader"
-          );
-          const $textEl = $($element).find(".gt_button-content-text");
-          if ($loadingEl && $loadingEl.length && $textEl && $textEl.length) {
-            let timeout = undefined;
-            if (isDisplay === true) {
-              /*displayloadingbutton*/
-              clearTimeout(timeout);
-              $loadingEl.css("display", "inline-block");
-              $textEl.css("visibility", "hidden");
-            } else if (isDisplay === "stop") {
-              /*stoploading*/
-              $loadingEl.removeAttr("style");
-              $textEl.removeAttr("style");
-              store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow", "");
-              store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow" + "_" + indexEl, "");
-            } else if (isDisplay === false) {
-              clearTimeout(timeout);
-              /*displaytickbutton*/
-              $loadingEl.addClass("load-complete");
-              $loadingEl
-                .find(".atom-button-loading-check-mark")
-                .css("display", "block");
-              /*removetickbuttonanddisplaytext*/
-              timeout = setTimeout(function() {
-                $loadingEl.removeClass("load-complete");
-                $loadingEl
-                  .find(".atom-button-loading-check-mark")
-                  .removeAttr("style");
-                $loadingEl.removeAttr("style");
-                $textEl.removeAttr("style");
-                store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow", "");
-                store.dispatch("loading-buy-now-zTvkNgEHQm2DHkz_productButtonBuyItNow" + "_" + indexEl, "");
-              }, 3000);
-            }
-          }
-        }
-      );
-    }
-    /* init block script */
-    addInteraction();
-    addActionEvent();
-    eventListenSoldOut();
-    eventChangeTextInIframe();
-    /* store subscribe block script */
-    /* events block script */
-    /* destroy block script */
-    
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target, indexEl);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productButtonBuyItNow()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productButtonBuyItNow" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESAtomzTvkNgEHQm2DHkz_productDescription() {
-          (function() {
-  var elementClassName = ".gt_atom-zTvkNgEHQm2DHkz_productDescription";
-  var id = "zTvkNgEHQm2DHkz_productDescription";
-  var $elements = document.querySelectorAll(elementClassName);
-  var store = window.SOLID.store;
-
-  function script($target) {
-    var $element = $target;
-    /* data block script */
-    const scrollIntoViewActive = "false" == "true";
-    const animationActive = "false" == "true";
-    const animationHoverActive = "false" == "true";
-    const scrollIntoView = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animation = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    const animationHover = '{"delay":0,"duration":"1.5","iterationCount":1,"name":"none"}';
-    /* store get state block script */
-    /* methods block script */
-    function toggleDes() {
-      $element.find(".gt_description").toggleClass("open");
-    }
-
-    function addInteraction() {
-      if (animationActive || scrollIntoViewActive || animationHoverActive) {
-        var settingsBlock = {
-          elementId: "zTvkNgEHQm2DHkz_productDescription",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "block"
-        };
-        var settingsText = {
-          elementId: "zTvkNgEHQm2DHkz_productDescription",
-          $doms: $(elementClassName),
-          mode: "production",
-          animationType: "text"
-        };
-        if (scrollIntoViewActive) {
-          settingsText.interactionScrollIntoView = {
-            value: JSON.parse(scrollIntoView),
-            previewAttr: "scrollIntoView",
-          };
-        }
-        if (animationActive) {
-          settingsBlock.interactionNormal = {
-            value: JSON.parse(animation),
-            previewAttr: "animation",
-          };
-        }
-        if (animationHoverActive) {
-          settingsBlock.interactionHover = {
-            value: JSON.parse(animationHover),
-            previewAttr: "animationHover"
-          };
-        }
-        window.SOLID.library.animation(settingsText);
-        window.SOLID.library.animation(settingsBlock);
-      }
-    }
-    /* init block script */
-    $element.find(".gt_description").removeClass("open");
-    addInteraction();
-    /* store subscribe block script */
-    function destroy() {}
-    /* events block script */
-    var $elements_1 = $element.find("#toggleDes");
-    $elements_1.off("click").on("click", toggleDes);
-    /* destroy block script */
-    store.subscribe("component-" + id + "-destroy", function() {
-      destroy();
-      store.unsubscribe("component-" + id + "-destroy");
-    });
-  }
-  /* run all script */
-  for (var indexEl = 0; indexEl < $elements.length; indexEl++) {
-    var $target = $($elements[indexEl]);
-    script($target);
-  }
-  /*===================== DEVELOPER AREA ======================*/
-  /* BEGIN */
-
-  /* END */
-})();
-        }
-        funcESAtomzTvkNgEHQm2DHkz_productDescription()
-      } catch(e) {
-        console.error("Error ESAtom Id: zTvkNgEHQm2DHkz_productDescription" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
         function funcESSectiongEnGGnUU54vFDLY() {
           
         }
@@ -7006,32 +7032,6 @@ if (!$section || !$section.length) {
         funcESSectionGR20lCAcX7Uy9mh()
       } catch(e) {
         console.error("Error ESSection Id: GR20lCAcX7Uy9mh" )
-        console.log("=============================== START ERROR =================================")
-        console.log(e)
-        console.log("===============================  END ERROR  =================================")
-      }
-    
-      try {
-        function funcESSectionhMw4efW4b7YG9sz() {
-          var $section = $(".gt_section-hMw4efW4b7YG9sz");
-if (!$section || !$section.length) {
-  return;
-}
-
-/* Comment */
-store.change("optimal-hMw4efW4b7YG9sz-altImage", function({value, index}) {
-  $section.find('.image_insta[data-index="'+index+'"] img').attr("alt", value);
-});
-
-store.change("optimal-hMw4efW4b7YG9sz-linkItem", function({value, index}) {
-  $section.find('.link_items[data-index="'+index+'"]').attr("href", value);
-});
-/* End Comment */
-
-        }
-        funcESSectionhMw4efW4b7YG9sz()
-      } catch(e) {
-        console.error("Error ESSection Id: hMw4efW4b7YG9sz" )
         console.log("=============================== START ERROR =================================")
         console.log(e)
         console.log("===============================  END ERROR  =================================")
