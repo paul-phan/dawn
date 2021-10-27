@@ -1,0 +1,42 @@
+{% if request.design_mode and section.settings.builder_content_entry_preview == '71274b7b6d3e400bbc048be2c99665a2' %}
+{% include 'content.71274b7b6d3e400bbc048be2c99665a2.builder' %}
+{% else %}
+  {% include 'model.test-builderio-section.builder' %}
+{% endif %}
+
+{% schema %}
+{
+  "name": "Test builderio section",
+  "tag": "section",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Custom Builder.io Section"
+    },
+    {
+      "type": "paragraph",
+      "content": "To edit and customize this section, visit the [model in Builder](https://builder.io/content?model=47e0e696bd6a443fb73f3c7bd9dadb73). To learn more about how sections in Builder work with Shopify, [visit the docs](https://www.builder.io/c/docs/shopify/sections-everywhere)."
+    },
+    {
+      "type": "select",
+      "id": "builder_content_entry_preview",
+      "label": "Content Entry Preview",
+      "info": "Choose a content entry to display in the editor preview. This setting only affects the preview and is useful if you would like to see what your store looks like when using targeting.",
+      "options": [
+        { "value": "71274b7b6d3e400bbc048be2c99665a2", "label": "test builderio section section 10/27/202"}
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Builder entries used"
+    },
+    {
+  "type": "paragraph",
+  "content": "Name: test builderio section section 10/27/2021 - 11:46:53 AM. Targeting: no targeting. Visit the [entry in Builder](https://builder.io/content/71274b7b6d3e400bbc048be2c99665a2)"
+}
+  ],
+  "presets":[{
+    "name": "Test builderio section"
+  }]
+}
+{% endschema %}
