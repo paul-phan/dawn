@@ -111,7 +111,10 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   
   {% render 'shogun-head' %}
 {% render 'ecomsolid-head' %}
-</head>
+{% if request.design_mode %}
+<script async src="https://cdn.builder.io/js/webcomponents"></script>
+{% endif %}
+        </head>
 
   <body><div class="pagefly-container">{{ content_for_layout }}</div></body>
 </html>
