@@ -113,7 +113,11 @@ This file can be re-written at any time.
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   
   {% render 'shogun-head' %}
-
+{% render 'ecomsolid-head' %}
+{% if request.design_mode %}
+<script async src="https://cdn.builder.io/js/webcomponents"></script>
+{% endif %}
+        
 </head>
 
 
