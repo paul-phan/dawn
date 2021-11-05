@@ -110,7 +110,9 @@
 {% if request.design_mode %}
 <script async src="https://cdn.builder.io/js/webcomponents"></script>
 {% endif %}
-        </head>
+        {% render 'weglot_hreftags' %}
+{% render 'weglot_switcher' %}
+</head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
