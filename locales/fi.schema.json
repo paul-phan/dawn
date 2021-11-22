@@ -33,6 +33,18 @@
         },
         "colors_background_2": {
           "label": "Tausta 2"
+        },
+        "gradient_accent_1": {
+          "label": "Korostus 1 liukuväri"
+        },
+        "gradient_accent_2": {
+          "label": "Korostus 2 liukuväri"
+        },
+        "gradient_background_1": {
+          "label": "Tausta 1 liukuväri"
+        },
+        "gradient_background_2": {
+          "label": "Tausta 2 liukuväri"
         }
       }
     },
@@ -52,6 +64,12 @@
         "type_body_font": {
           "label": "Fontti",
           "info": "Muun fontin valitseminen voi vaikuttaa kauppasi nopeuteen. [Lue lisää järjestelmäfonteista.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+        },
+        "heading_scale": {
+          "label": "Fonttikoon skaala"
+        },
+        "body_scale": {
+          "label": "Fonttikoon skaala"
         }
       }
     },
@@ -105,21 +123,6 @@
     "social-media": {
       "name": "Sosiaalinen media",
       "settings": {
-        "share_facebook": {
-          "label": "Jaa Facebookissa"
-        },
-        "share_twitter": {
-          "label": "Twiittaa Twitterissä"
-        },
-        "share_pinterest": {
-          "label": "Pinnaa Pinterestissä"
-        },
-        "header__1": {
-          "content": "Some-jakamisen vaihtoehdot"
-        },
-        "header__2": {
-          "content": "Sosiaalisen median tilit"
-        },
         "social_twitter_link": {
           "label": "Twitter",
           "info": "https://twitter.com/shopify"
@@ -191,6 +194,25 @@
           "options__2": {
             "label": "1600 px"
           }
+        }
+      }
+    },
+    "search_input": {
+      "name": "Haun syöte",
+      "settings": {
+        "header": {
+          "content": "Tuote-ehdotukset"
+        },
+        "predictive_search_enabled": {
+          "label": "Ota tuote-ehdotukset käyttöön"
+        },
+        "predictive_search_show_vendor": {
+          "label": "Näytä myyjä",
+          "info": "Näkyy, kun tuote-ehdotukset ovat käytössä."
+        },
+        "predictive_search_show_price": {
+          "label": "Näytä hinta",
+          "info": "Näkyy, kun tuote-ehdotukset ovat käytössä."
         }
       }
     }
@@ -457,7 +479,7 @@
         },
         "show_image": {
           "label": "Näytä esittelykuva",
-          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 2:3. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 3:2. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "soft_background": {
           "label": "Näytä toissijainen tausta"
@@ -467,25 +489,6 @@
         },
         "show_author": {
           "label": "Näytä tekijä"
-        }
-      },
-      "blocks": {
-        "title": {
-          "name": "Otsikko",
-          "settings": {
-            "show_date": {
-              "label": "Näytä päivämäärä"
-            },
-            "show_author": {
-              "label": "Näytä tekijä"
-            }
-          }
-        },
-        "summary": {
-          "name": "Ote"
-        },
-        "link": {
-          "name": "Linkki"
         }
       },
       "presets": {
@@ -536,6 +539,10 @@
         },
         "show_image_outline": {
           "label": "Näytä kuvan reuna"
+        },
+        "show_rating": {
+          "label": "Näytä tuotteen luokitus",
+          "info": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
         }
       },
       "presets": {
@@ -663,6 +670,24 @@
         "enable_sticky_header": {
           "label": "Ota paikallaan pysyvä ylätunniste käyttöön",
           "info": "Ylätunniste näkyy näytöllä, kun asiakkaat vierittävät ylöspäin."
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Korostus 1"
+          },
+          "options__2": {
+            "label": "Korostus 2"
+          },
+          "options__3": {
+            "label": "Tausta 1"
+          },
+          "options__4": {
+            "label": "Tausta 2"
+          },
+          "options__5": {
+            "label": "Käänteinen"
+          },
+          "label": "Värimalli"
         }
       }
     },
@@ -704,13 +729,14 @@
             "label": "Käänteinen"
           },
           "label": "Värimalli",
-          "info": "Näkyvillä, kun tekstiruutu on esillä"
+          "info": "Käytetään tekstiruudussa."
         },
         "stack_images_on_mobile": {
           "label": "Pinoa kuvat mobiilissa"
         },
         "adapt_height_first_image": {
-          "label": "Mukauta osion korkeus ensimmäisen kuvan kokoon"
+          "label": "Mukauta osion korkeus ensimmäisen kuvan kokoon",
+          "info": "Korvaa kuvabannerin korkeusasetuksen"
         },
         "show_text_box": {
           "label": "Näytä tekstiruutu työpöydällä"
@@ -723,6 +749,19 @@
         },
         "show_text_below": {
           "label": "Näytä teksti kuvien alapuolella"
+        },
+        "image_height": {
+          "label": "Bannerin korkeus",
+          "options__1": {
+            "label": "Pieni"
+          },
+          "options__2": {
+            "label": "Keskisuuri"
+          },
+          "options__3": {
+            "label": "Suuri"
+          },
+          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 3:2. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       },
       "blocks": {
@@ -739,7 +778,7 @@
               "options__2": {
                 "label": "Suuri"
               },
-              "label": "Otsikon koko"
+              "label": "Otsikon fonttikoko"
             }
           }
         },
@@ -874,12 +913,15 @@
                 "label": "Sovita kuvaan"
               },
               "options__2": {
-                "label": "Keskisuuri"
+                "label": "Pieni"
               },
               "options__3": {
-                "label": "Suuri"
+                "label": "Keskisuuri"
               },
-              "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 16:9. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+              "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 16:9. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+              "options__4": {
+                "label": "Suuri"
+              }
             }
           }
         },
@@ -896,9 +938,6 @@
         },
         "content": {
           "name": "Sisältö"
-        },
-        "social_sharing": {
-          "name": "sosiaalisen median jakopainikkeet"
         },
         "share": {
           "name": "Jaa",
@@ -923,8 +962,7 @@
           "content": "Blogijulkaisukortti"
         },
         "show_image": {
-          "label": "Näytä esittelykuva",
-          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 2:3. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "label": "Näytä esittelykuva"
         },
         "paragraph": {
           "content": "Muuta otteita blogijulkaisujasi muokkaamalla. [Lisätietoja](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
@@ -934,25 +972,31 @@
         },
         "show_author": {
           "label": "Näytä tekijä"
-        }
-      },
-      "blocks": {
-        "title": {
-          "name": "Otsikko",
-          "settings": {
-            "show_date": {
-              "label": "Näytä päivämäärä"
-            },
-            "show_author": {
-              "label": "Näytä tekijä"
-            }
+        },
+        "layout": {
+          "label": "Asettelu suurilla näytöillä",
+          "options__1": {
+            "label": "Ruudukko"
+          },
+          "options__2": {
+            "label": "Kollaasi"
           }
         },
-        "summary": {
-          "name": "Ote"
-        },
-        "link": {
-          "name": "Linkki"
+        "image_height": {
+          "label": "Esittelykuvan korkeus",
+          "options__1": {
+            "label": "Sovita kuvaan"
+          },
+          "options__2": {
+            "label": "Pieni"
+          },
+          "options__3": {
+            "label": "Keskisuuri"
+          },
+          "options__4": {
+            "label": "Suuri"
+          },
+          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 3:2. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
@@ -1042,11 +1086,12 @@
         "show_image_outline": {
           "label": "Näytä kuvan reuna"
         },
-        "enable_sort": {
-          "label": "Ota lajittelu käyttöön"
-        },
         "collapse_on_larger_devices": {
           "label": "Pienennä suuremmilla näytöillä"
+        },
+        "show_rating": {
+          "label": "Näytä tuotteen luokitus",
+          "info": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
         }
       }
     },
@@ -1352,6 +1397,14 @@
               "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita Liquid-koodeja."
             }
           }
+        },
+        "rating": {
+          "name": "Tuotearvio",
+          "settings": {
+            "paragraph": {
+              "content": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
+            }
+          }
         }
       },
       "settings": {
@@ -1409,6 +1462,10 @@
         },
         "show_image_outline": {
           "label": "Näytä kuvan reuna"
+        },
+        "show_rating": {
+          "label": "Näytä tuotteen luokitus",
+          "info": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
         }
       }
     },
@@ -1488,6 +1545,12 @@
             },
             "text": {
               "label": "Kuvaus"
+            },
+            "link_label": {
+              "label": "Linkin teksti"
+            },
+            "link": {
+              "label": "Linkki"
             }
           }
         }
@@ -1566,9 +1629,6 @@
         "heading": {
           "label": "Otsikko"
         },
-        "header__1": {
-          "content": "Tuotesuositukset"
-        },
         "header__2": {
           "content": "Tuotekortti"
         },
@@ -1598,6 +1658,10 @@
         },
         "show_image_outline": {
           "label": "Näytä kuvan reuna"
+        },
+        "show_rating": {
+          "label": "Näytä tuotteen luokitus",
+          "info": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
         }
       }
     },
@@ -1794,6 +1858,14 @@
               "label": "Mukautettu liquid"
             }
           }
+        },
+        "rating": {
+          "name": "Tuotearvio",
+          "settings": {
+            "paragraph": {
+              "content": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
+            }
+          }
         }
       },
       "settings": {
@@ -1809,10 +1881,107 @@
         },
         "enable_video_looping": {
           "label": "Ota videosilmukka käyttöön"
+        },
+        "hide_variants": {
+          "label": "Piilota valitsemattomien versioiden media tietokoneversiossa"
         }
       },
       "presets": {
         "name": "Esittelyssä oleva tuote"
+      }
+    },
+    "email-signup-banner": {
+      "name": "Sähköpostirekisteröitymisen banneri",
+      "settings": {
+        "paragraph": {
+          "content": "Sähköpostitilaus luo asiakastilin. [Lisätietoja](https://help.shopify.com/en/manual/customers)"
+        },
+        "image": {
+          "label": "Taustakuva"
+        },
+        "show_background_image": {
+          "label": "Näytä taustakuva"
+        },
+        "desktop_text_box_position": {
+          "options__1": {
+            "label": "Ylös"
+          },
+          "options__2": {
+            "label": "Keskitetty"
+          },
+          "options__3": {
+            "label": "Alas"
+          },
+          "label": "Työpöytätekstin sijainti"
+        },
+        "show_text_box": {
+          "label": "Näytä tekstiruutu työpöydällä"
+        },
+        "image_overlay_opacity": {
+          "label": "Peittokuvan läpikuultavuus"
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Korostus 1"
+          },
+          "options__2": {
+            "label": "Korostus 2"
+          },
+          "options__3": {
+            "label": "Tausta 1"
+          },
+          "options__4": {
+            "label": "Tausta 2"
+          },
+          "options__5": {
+            "label": "Käänteinen"
+          },
+          "label": "Värimalli",
+          "info": "Näkyvillä, kun tekstiruutu on esillä"
+        },
+        "show_text_below": {
+          "label": "Näyttä kuvien alla oleva teksti mobiililaitteessa"
+        },
+        "image_height": {
+          "label": "Bannerin korkeus",
+          "options__1": {
+            "label": "Sovita kuvaan"
+          },
+          "options__2": {
+            "label": "Pieni"
+          },
+          "options__3": {
+            "label": "Keskisuuri"
+          },
+          "options__4": {
+            "label": "Suuri"
+          },
+          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 16:9. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Otsikko",
+          "settings": {
+            "heading": {
+              "label": "Otsikko"
+            }
+          }
+        },
+        "paragraph": {
+          "name": "Kohta",
+          "settings": {
+            "paragraph": {
+              "label": "Kuvaus"
+            }
+          }
+        },
+        "email_form": {
+          "name": "Sähköpostilomake"
+        }
+      },
+      "presets": {
+        "name": "Sähköpostirekisteröitymisen banneri"
       }
     }
   }
