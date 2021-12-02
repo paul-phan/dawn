@@ -13,6 +13,7 @@
 .bPVliF { word-break: break-word; }
 .bPVliF span { font-weight: inherit; text-decoration: inherit; }
 .bPVliF i { margin-right: 0.3em; }
+.gVhhRb { font-family: FontAwesome !important; }
 .eNpkPs { position: relative; }
 .cflExq { padding: var(--pf-s-lg); }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -703,6 +704,9 @@
 		 background-image: url("https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-6238e1df--Untitled-design-4.png?v=1607055153");
 		 padding-top: 216px;
 		 padding-bottom: 50px;
+	}
+	.__pf .pf-dfe0f3a8 {
+		font-size: inherit;
 	}
 }
 @media only screen and (max-width: 767px) {
