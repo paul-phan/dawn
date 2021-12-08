@@ -87,8 +87,8 @@
       "settings": {
       }
     },
-    "pagefly-product-section": {
-      "type": "pagefly-product-section",
+    "pf-7bf48232": {
+      "type": "pf-7bf48232",
       "settings": {
       }
     }
@@ -98,7 +98,7 @@
     "shogun-above",
     "main",
     "product-recommendations",
-    "pagefly-product-section",
-    "shogun-below"
+    "shogun-below",
+    "pf-7bf48232"
   ]
 }
