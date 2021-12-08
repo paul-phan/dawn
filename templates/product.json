@@ -86,6 +86,11 @@
       "type": "shogun-helper",
       "settings": {
       }
+    },
+    "pagefly-product-section": {
+      "type": "pagefly-product-section",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -93,6 +98,7 @@
     "shogun-above",
     "main",
     "product-recommendations",
-    "shogun-below"
+    "shogun-below",
+    "pagefly-product-section"
   ]
 }
