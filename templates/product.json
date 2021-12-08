@@ -86,11 +86,6 @@
       "type": "shogun-helper",
       "settings": {
       }
-    },
-    "pf-7bf48232": {
-      "type": "pf-7bf48232",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -98,7 +93,6 @@
     "shogun-above",
     "main",
     "product-recommendations",
-    "shogun-below",
-    "pf-7bf48232"
+    "shogun-below"
   ]
 }
