@@ -399,7 +399,7 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
+        "regular_price": "Regular price Giá",
         "sold_out": "Sold out",
         "unavailable": "Unavailable",
         "on_sale": "Sale",
