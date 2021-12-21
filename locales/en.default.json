@@ -406,8 +406,7 @@
         "quantity": "Quantity",
         "add_to_cart": "Add to cart",
         "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details",
-        "minh": "hahaha"
+        "view_details": "View details"
       }
     },
     "article": {
